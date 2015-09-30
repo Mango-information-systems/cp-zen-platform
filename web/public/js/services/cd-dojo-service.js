@@ -1,9 +1,27 @@
 'use strict';
-  function cdDojoService($q, cdApi){
+  function cdDojoService($q, cdApi, $http){
     function topfail(err){
       console.log(err);
     }
     var currentDojo = {};
+
+    var cdApi2 = {
+      post: function(url, params) {
+        var deferred = $q.defer();
+        var promise = $http({
+          method: 'POST',
+          url: url,
+          data: JSON.stringify(params),
+          headers: {'Content-Type': 'application/json'}
+        }).then(function(result) {
+          deferred.resolve(result.data);
+        }, function(reason){
+          deferred.reject(reason);
+        });
+        return deferred.promise;
+      }
+    };
+
     return {
       load: function(id, win, fail) {
         cdApi.get('dojos/' + id, win, fail || topfail);
@@ -144,10 +162,25 @@
         return deferred.promise;
       },
       searchBoundingBox: function(query) {
+        return cdApi2.post('/api/2.0/dojos/search_bounding_box', {query: query});
+      },
+
+/*
+      searchBoundingBox: function(query) {
         var deferred = $q.defer();
-        cdApi.post('dojos/search_bounding_box', {query: query}, deferred.resolve, deferred.reject || topfail);
+        var promise = $http({
+          method: 'POST',
+          url: '/api/2.0/dojos/search_bounding_box',
+          data: JSON.stringify({query: query}),
+          headers: {'Content-Type': 'application/json'}
+        }).then(function(result) {
+          deferred.resolve(result.data);
+        }, function(reason){
+          deferred.reject(reason);
+        });
         return deferred.promise;
       },
+*/
       // from countries service
       listCountries: function(win, fail){
         cdApi.get('countries', function (countries) {
@@ -179,5 +212,5 @@
     };
   }
 angular.module('cpZenPlatform')
-  .service('cdDojoService', ['$q', 'cdApi', cdDojoService])
+  .service('cdDojoService', ['$q', 'cdApi', '$http', cdDojoService])
 ;

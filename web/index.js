@@ -206,12 +206,12 @@ server.register({ register: Chairo, options: options }, function (err) {
     // }
 
     // Use seneca-web middleware with Hapi.
+
     server.register({
       register: require('hapi-seneca'),
       options: {
         cors: true,
         session: {
-          /*store: sessionStore, */
           secret: options.session.secret,
           name: 'CD.ZENPLATFORM',
           saveUninitialized: true,
@@ -220,6 +220,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       }
     }, function (err) {
       checkHapiPluginError('hapi-seneca')(err);
+
       server.start(function() {
         console.log('[%s] Listening on http://localhost:%d', env, port);
       });

@@ -19,6 +19,19 @@
           deferred.reject(reason);
         });
         return deferred.promise;
+      },
+      get: function(url) {
+        var deferred = $q.defer();
+        var promise = $http({
+          method: 'GET',
+          url: url,
+          headers: {'Content-Type': 'application/json'}
+        }).then(function(result) {
+          deferred.resolve(result.data);
+        }, function(reason){
+          deferred.reject(reason);
+        });
+        return deferred.promise;
       }
     };
 
@@ -183,7 +196,7 @@
 */
       // from countries service
       listCountries: function(win, fail){
-        cdApi.get('countries', function (countries) {
+        cdApi2.get('/api/2.0/countries', function (countries) {
           // Convert to array (and ensure array exists).
           countries = _.map(countries);
           // Sort based on browser/OS's locale.

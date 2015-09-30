@@ -156,6 +156,11 @@ if (process.env.HAPI_DEBUG === 'true') {
   server.register({ register: require('good'), options: goodOptions }, checkHapiPluginError('Good Logger'));
 }
 
+var dojos = require('../lib/dojos/dojos.js')
+server.register(dojos, function (err) {
+  checkHapiPluginError('dojos')(err);
+});
+
 // Set up Chairo and seneca, then start the server.
 server.register({ register: Chairo, options: options }, function (err) {
   checkHapiPluginError('Chairo')(err);

@@ -32,7 +32,7 @@
         cdApi.get('dojos/' + id, win, fail || topfail);
       },
       find: function(query, win, fail) {
-        cdApi.post('dojos/find', {query:query}, win, fail || topfail);
+        cdApi2.post('/api/2.0/dojos/find', {query:query}, win, fail || topfail);
       },
       list: function(query, win, fail){
         cdApi.post('dojos', {query:query}, win, fail || topfail);

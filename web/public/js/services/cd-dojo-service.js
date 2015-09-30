@@ -6,32 +6,24 @@
     var currentDojo = {};
 
     var cdApi2 = {
-      post: function(url, params) {
-        var deferred = $q.defer();
-        var promise = $http({
+      post: function(url, params, resolve, reject) {
+        $http({
           method: 'POST',
           url: url,
           data: JSON.stringify(params),
           headers: {'Content-Type': 'application/json'}
         }).then(function(result) {
-          deferred.resolve(result.data);
-        }, function(reason){
-          deferred.reject(reason);
-        });
-        return deferred.promise;
+          resolve(result.data);
+        }, reject);
       },
-      get: function(url) {
-        var deferred = $q.defer();
-        var promise = $http({
+      get: function(url, resolve, reject) {
+        $http({
           method: 'GET',
           url: url,
           headers: {'Content-Type': 'application/json'}
         }).then(function(result) {
-          deferred.resolve(result.data);
-        }, function(reason){
-          deferred.reject(reason);
-        });
-        return deferred.promise;
+          resolve(result.data);
+        }, reject);
       }
     };
 
@@ -175,27 +167,13 @@
         return deferred.promise;
       },
       searchBoundingBox: function(query) {
-        return cdApi2.post('/api/2.0/dojos/search_bounding_box', {query: query});
-      },
-
-/*
-      searchBoundingBox: function(query) {
-        var deferred = $q.defer();
-        var promise = $http({
-          method: 'POST',
-          url: '/api/2.0/dojos/search_bounding_box',
-          data: JSON.stringify({query: query}),
-          headers: {'Content-Type': 'application/json'}
-        }).then(function(result) {
-          deferred.resolve(result.data);
-        }, function(reason){
-          deferred.reject(reason);
+        return $q(function(resolve, reject) {
+          cdApi2.post('/api/2.0/dojos/search_bounding_box', {query: query}, resolve, reject);
         });
-        return deferred.promise;
       },
-*/
       // from countries service
       listCountries: function(win, fail){
+        // cdApi.get('countries', function (countries) {
         cdApi2.get('/api/2.0/countries', function (countries) {
           // Convert to array (and ensure array exists).
           countries = _.map(countries);

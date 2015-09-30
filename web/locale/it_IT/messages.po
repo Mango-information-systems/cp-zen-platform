@@ -1,0 +1,2345 @@
+msgid ""
+msgstr "ITALIAN "
+"Project-Id-Version: Coder Dojo Platform v1.0\n"
+"POT-Creation-Date: 2015-05-01 01:16+0200\n"
+"PO-Revision-Date: 2015-05-14 08:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: web/public\n"
+"X-Poedit-SearchPathExcluded-0: web/public/components\n"
+
+#: web/public/js/controllers/champion-onboarding-controller.js:27
+msgid "Yes"
+msgstr "ITALIAN Yes"
+
+#: web/public/js/controllers/champion-onboarding-controller.js:27
+msgid "No"
+msgstr "ITALIAN No"
+
+msgid "Register a Dojo"
+msgstr "ITALIAN Register a Dojo"
+
+msgid "REQUEST PASSWORD RESET"
+msgstr "ITALIAN REQUEST PASSWORD RESET"
+
+msgid "Cancel"
+msgstr "ITALIAN Cancel"
+
+msgid "Forgot password"
+msgstr "ITALIAN Forgot password?"
+
+msgid "Register"
+msgstr "ITALIAN Register"
+
+msgid "Email"
+msgstr "ITALIAN Email"
+
+msgid "Password"
+msgstr "ITALIAN Password"
+
+msgid "Other stuff"
+msgstr "ITALIAN Other stuff"
+
+msgid "Name is empty"
+msgstr "ITALIAN Name is empty"
+
+msgid "Name"
+msgstr "ITALIAN Name"
+
+msgid "Email is empty"
+msgstr "ITALIAN Email is empty"
+
+msgid "Password is empty"
+msgstr "ITALIAN Password is empty"
+
+msgid "Passwords do not match"
+msgstr "ITALIAN Passwords do not match!"
+
+msgid "Confirm Password is empty"
+msgstr "ITALIAN Confirm Password is empty"
+
+msgid "Confirm password"
+msgstr "ITALIAN Confirm password"
+
+msgid "Already have an account"
+msgstr "ITALIAN Already have an account?"
+
+msgid "Select user type"
+msgstr "ITALIAN Select user type"
+
+msgid "Login"
+msgstr "ITALIAN Login"
+
+msgid "Zen Terms of Service"
+msgstr "ITALIAN Zen Terms of Service"
+
+msgid "INTRODUCTION"
+msgstr "ITALIAN INTRODUCTION"
+
+msgid "Welcome to 'Zen' the CoderDojo community platform hosted at zen.coderdojo.com."
+msgstr "ITALIAN Welcome to 'Zen' the CoderDojo community platform hosted at zen.coderdojo.com."
+
+msgid "PLEASE READ THE FOLLOWING CAREFULLY BEFORE USING ZEN."
+msgstr "ITALIAN PLEASE READ THE FOLLOWING CAREFULLY BEFORE USING ZEN."
+
+msgid "Zen is a platform for CoderDojo community members (Champions, Mentors, Parents and Youth Attendees) to search for local Dojos, create listings for their Dojos on the publicly viewable Dojo database, issue and book tickets for their Dojos, participate in the CoderDojo web forums and manage their Dojo volunteers."
+msgstr "ITALIAN Zen is a platform for CoderDojo community members (Champions, Mentors, Parents and Youth Attendees) to search for local Dojos, create listings for their Dojos on the publicly viewable Dojo database, issue and book tickets for their Dojos, participate in the CoderDojo web forums and manage their Dojo volunteers."
+
+msgid "Throughout the site, the terms \"we\", \"us\" and \"our\" refer to the CoderDojo Foundation. The CoderDojo Foundation offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. The following Terms and Conditions are a legal contract between you (\"You\") and the CoderDojo Foundation regarding your use of Zen. Visitors and users of Zen are referred to individually as \"User\" and collectively as \"Users\"."
+msgstr "ITALIAN Throughout the site, the terms \"we\", \"us\" and \"our\" refer to the CoderDojo Foundation. The CoderDojo Foundation offers this website, including all information, tools and services available from this site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. The following Terms and Conditions are a legal contract between you (\"You\") and the CoderDojo Foundation regarding your use of Zen. Visitors and users of Zen are referred to individually as \"User\" and collectively as \"Users\"."
+
+msgid "Information about us"
+msgstr "ITALIAN Information about us"
+
+msgid "Zen is operated and presented to users by the CoderDojo Foundation (formerly known as the 'Hello World Foundation') with registered address Dogpatch Labs, The CHQ Building, Custom House Quay, Dublin 1, Ireland. Hello World Foundation is an Irish Company registered under company number 524255 and a registered charity in Republic of Ireland, CHY 20812."
+msgstr "ITALIAN Zen is operated and presented to users by the CoderDojo Foundation (formerly known as the 'Hello World Foundation') with registered address Dogpatch Labs, The CHQ Building, Custom House Quay, Dublin 1, Ireland. Hello World Foundation is an Irish Company registered under company number 524255 and a registered charity in Republic of Ireland, CHY 20812."
+
+msgid "SECTION 1 - USER AGREEMENT"
+msgstr "ITALIAN SECTION 1 - USER AGREEMENT"
+
+msgid "Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service."
+msgstr "ITALIAN Please read these Terms of Service carefully before accessing or using our website. By accessing or using any part of the site, you agree to be bound by these Terms of Service. If you do not agree to all the terms and conditions of this agreement, then you may not access the website or use any services. If these Terms of Service are considered an offer, acceptance is expressly limited to these Terms of Service."
+
+msgid "By visiting our site and you engage in our \"Service\" and agree to be bound by the following terms and conditions (\"Terms of Service\", \"Terms\"), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms apply to all users of the site, including without limitation users who are viewers, CoderDojo organisers, CoderDojo mentors, CoderDojo youth attendees and parents."
+msgstr "ITALIAN By visiting our site and you engage in our \"Service\" and agree to be bound by the following terms and conditions (\"Terms of Service\", \"Terms\"), including those additional terms and conditions and policies referenced herein and/or available by hyperlink. These Terms apply to all users of the site, including without limitation users who are viewers, CoderDojo organisers, CoderDojo mentors, CoderDojo youth attendees and parents."
+
+msgid "By setting up an account on Zen, all CoderDojo Community Members (Champions, Volunteers and Mentors) are agreeing to the terms laid out in the CoderDojo Charter (permanent link to Charter). The CoderDojo Charter lays out a series of commitments that Community members must make to become part of the Global CoderDojo Community. These commitments cover key aspects of the CoderDojo Ethos and Culture, such as always being free, open, inclusive, and safeguarding children."
+msgstr "ITALIAN By setting up an account on Zen, all CoderDojo Community Members (Champions, Volunteers and Mentors) are agreeing to the terms laid out in the CoderDojo Charter (permanent link to Charter). The CoderDojo Charter lays out a series of commitments that Community members must make to become part of the Global CoderDojo Community. These commitments cover key aspects of the CoderDojo Ethos and Culture, such as always being free, open, inclusive, and safeguarding children."
+
+msgid "IF YOU ARE A PARENT OR GUARDIAN AND YOU PROVIDE YOUR CONSENT TO YOUR CHILD'S REGISTRATION WITH THE SITE, YOU AGREE TO BE BOUND BY THESE TERMS OF USE IN RESPECT OF THEIR USE OF THE SITE."
+msgstr "ITALIAN IF YOU ARE A PARENT OR GUARDIAN AND YOU PROVIDE YOUR CONSENT TO YOUR CHILD'S REGISTRATION WITH THE SITE, YOU AGREE TO BE BOUND BY THESE TERMS OF USE IN RESPECT OF THEIR USE OF THE SITE."
+
+msgid "Any new features or tools which are added to the current store shall also be subject to the Terms."
+msgstr "ITALIAN Any new features or tools which are added to the current store shall also be subject to the Terms."
+
+msgid "You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes."
+msgstr "ITALIAN You can review the most current version of the Terms of Service at any time on this page. We reserve the right to update, change or replace any part of these Terms of Service by posting updates and/or changes to our website. It is your responsibility to check this page periodically for changes. Your continued use of or access to the website following the posting of any changes constitutes acceptance of those changes."
+
+msgid "Your privacy is important to us. Please read our Privacy Statement, which identifies how the CoderDojo Foundation Team uses, collects, and stores information it collects through the Services. By using Zen, you additionally agree that you are comfortable with CoderDojo Foundation's Privacy Statement."
+msgstr "ITALIAN Your privacy is important to us. Please read our Privacy Statement, which identifies how the CoderDojo Foundation Team uses, collects, and stores information it collects through the Services. By using Zen, you additionally agree that you are comfortable with CoderDojo Foundation's Privacy Statement."
+
+msgid "Zen is open to users of all ages, and we ask that you keep this in mind when using these services."
+msgstr "ITALIAN Zen is open to users of all ages, and we ask that you keep this in mind when using these services."
+
+msgid "SECTION 2 - ACCOUNT ELIGIBILITY CREATION AND MAINTENANCE"
+msgstr "ITALIAN SECTION 2 - ACCOUNT ELIGIBILITY CREATION AND MAINTENANCE"
+
+msgid "THE WEBSITE IS NOT AVAILABLE TO (A) ANY USERS PREVIOUSLY SUSPENDED OR REMOVED FROM THE WEBSITE BY CODERDOJO FOUNDATION OR (B) ANY PERSONS UNDER THE AGE OF 13 WHOSE REGISTRATION HAS NOT BEEN APPROVED BY A LEGAL PARENT OR GUARDIAN. By clicking the \"I Agree\" button or by otherwise using or registering an account for the Website, You represent (a) that You have not been previously suspended or removed from the Website by the CoderDojo Foundation; (b) that You are either (i) at least 13 years of age or (ii) Your parent and/or guardian has consented to Your use of the Website; and (c) that your registration and your use of the Website is in compliance with any and all applicable laws and regulations."
+msgstr "ITALIAN THE WEBSITE IS NOT AVAILABLE TO (A) ANY USERS PREVIOUSLY SUSPENDED OR REMOVED FROM THE WEBSITE BY CODERDOJO FOUNDATION OR (B) ANY PERSONS UNDER THE AGE OF 13 WHOSE REGISTRATION HAS NOT BEEN APPROVED BY A LEGAL PARENT OR GUARDIAN. By clicking the \"I Agree\" button or by otherwise using or registering an account for the Website, You represent (a) that You have not been previously suspended or removed from the Website by the CoderDojo Foundation; (b) that You are either (i) at least 13 years of age or (ii) Your parent and/or guardian has consented to Your use of the Website; and (c) that your registration and your use of the Website is in compliance with any and all applicable laws and regulations."
+
+msgid "In order to use most features of the Services, you will need to register on Zen and create an account. When registering for a personal account, you will be asked to provide certain personal information, such as your email address, gender, birth month and year, and country. Please see Zen's Privacy Statement [Link to Privacy Policy] for the CoderDojo Foundation data retention and usage policies."
+msgstr "ITALIAN In order to use most features of the Services, you will need to register on Zen and create an account. When registering for a personal account, you will be asked to provide certain personal information, such as your email address, gender, birth month and year, and country. Please see Zen's Privacy Statement [Link to Privacy Policy] for the CoderDojo Foundation data retention and usage policies."
+
+msgid "If you are under 13, your parent/guardian will be required to create an account on Zen and then they can issue you a subaccount. When youth users reach 13 their accounts will automatically transfer to a \"Youth Over 13\" account and they will be required to create their own password."
+msgstr "ITALIAN If you are under 13, your parent/guardian will be required to create an account on Zen and then they can issue you a subaccount. When youth users reach 13 their accounts will automatically transfer to a \"Youth Over 13\" account and they will be required to create their own password."
+
+msgid "You are responsible for keeping your password secret and your account secure. You are solely responsible for any use of your account, even if your account is used by another person. If any use of your account violates the Terms of Service, your account may be suspended or deleted."
+msgstr "ITALIAN You are responsible for keeping your password secret and your account secure. You are solely responsible for any use of your account, even if your account is used by another person. If any use of your account violates the Terms of Service, your account may be suspended or deleted."
+
+msgid "You may not use another person's Zen account without permission."
+msgstr "ITALIAN You may not use another person's Zen account without permission."
+
+msgid "Account names cannot be changed."
+msgstr "ITALIAN Account names cannot be changed."
+
+msgid "If you have reason to believe that your account is no longer secure (for example, in the event of a loss, theft, or unauthorized disclosure of your password), promptly change your password. If you cannot access your account to change your password, notify us at info@coderdojo.com."
+msgstr "ITALIAN If you have reason to believe that your account is no longer secure (for example, in the event of a loss, theft, or unauthorized disclosure of your password), promptly change your password. If you cannot access your account to change your password, notify us at info@coderdojo.com."
+
+msgid "Youth Under 13 User. If You are a User of the Website and are under the age of 13 (\"Youth Under 13 User\"), You may not register an account for the Website without consent and approval from your legal parent or guardian. A Youth Under 13 User that begins the registration process for himself or herself without a Parent User may have the registration process restricted until a Parent User approves or assumes responsibility for the Youth Under 13 User account."
+msgstr "ITALIAN Youth Under 13 User. If You are a User of the Website and are under the age of 13 (\"Youth Under 13 User\"), You may not register an account for the Website without consent and approval from your legal parent or guardian. A Youth Under 13 User that begins the registration process for himself or herself without a Parent User may have the registration process restricted until a Parent User approves or assumes responsibility for the Youth Under 13 User account."
+
+msgid "Youth Under 13 User."
+msgstr "ITALIAN Youth Under 13 User."
+
+msgid "If You are a User of the Website and are under the age of 13 (\"Youth Under 13 User\"), You may not register an account for the Website without consent and approval from your legal parent or guardian. A Youth Under 13 User that begins the registration process for himself or herself without a Parent User may have the registration process restricted until a Parent User approves or assumes responsibility for the Youth Under 13 User account."
+msgstr "ITALIAN If You are a User of the Website and are under the age of 13 (\"Youth Under 13 User\"), You may not register an account for the Website without consent and approval from your legal parent or guardian. A Youth Under 13 User that begins the registration process for himself or herself without a Parent User may have the registration process restricted until a Parent User approves or assumes responsibility for the Youth Under 13 User account."
+
+msgid "Parent User"
+msgstr "ITALIAN Parent User"
+
+msgid "You acknowledge that the CoderDojo Foundation may choose, but is not obligated, to make any inquiries, either directly or through third parties, that the CoderDojo Foundation deems necessary to validate Your registration information, including without limitation engaging third parties to provide verification services. The CoderDojo Foundation reserves all rights to take legal actions against anyone who misrepresents personal information or is otherwise untruthful about their identity"
+msgstr "ITALIAN You acknowledge that the CoderDojo Foundation may choose, but is not obligated, to make any inquiries, either directly or through third parties, that the CoderDojo Foundation deems necessary to validate Your registration information, including without limitation engaging third parties to provide verification services. The CoderDojo Foundation reserves all rights to take legal actions against anyone who misrepresents personal information or is otherwise untruthful about their identity"
+
+msgid "NOTWITHSTANDING THE FOREGOING, YOU ACKNOWLEDGE THAT THE CODERDOJO FOUNDATION CANNOT GUARANTEE THE ACCURACY OF ANY INFORMATION SUBMITTED BY ANY USER AND THE CODERDOJO FOUNDATION IS NOT OBLIGATED TO VERIFY THE IDENTITY OF ANY USER, INCLUDING ANY USER’S CLAIM TO BE A PARENT USER, OR TO VERIFY THAT A PARENT IDENTIFIED BY A CHILD USER OR A COACH DURING REGISTRATION IS SUCH CHILD USER’S ACTUAL PARENT OR GUARDIAN."
+msgstr "ITALIAN NOTWITHSTANDING THE FOREGOING, YOU ACKNOWLEDGE THAT THE CODERDOJO FOUNDATION CANNOT GUARANTEE THE ACCURACY OF ANY INFORMATION SUBMITTED BY ANY USER AND THE CODERDOJO FOUNDATION IS NOT OBLIGATED TO VERIFY THE IDENTITY OF ANY USER, INCLUDING ANY USER’S CLAIM TO BE A PARENT USER, OR TO VERIFY THAT A PARENT IDENTIFIED BY A CHILD USER OR A COACH DURING REGISTRATION IS SUCH CHILD USER’S ACTUAL PARENT OR GUARDIAN."
+
+msgid "A Parent User account, along with all associated Child User accounts, may be terminated by the CoderDojo Foundation at any time and without warning for any failure to abide by these Terms."
+msgstr "ITALIAN A Parent User account, along with all associated Child User accounts, may be terminated by the CoderDojo Foundation at any time and without warning for any failure to abide by these Terms."
+
+msgid "SECTION 3 - RULES OF USAGE"
+msgstr "ITALIAN SECTION 3 - RULES OF USAGE"
+
+msgid "The CoderDojo Foundation Team supports freedom of expression. However, Zen is intended for a wide audience, and some content is inappropriate for the CoderDojo community. You may not use the Zen service in any way, that:"
+msgstr "ITALIAN The CoderDojo Foundation Team supports freedom of expression. However, Zen is intended for a wide audience, and some content is inappropriate for the CoderDojo community. You may not use the Zen service in any way, that:"
+
+msgid "Promotes bigotry, discrimination, hatred, or violence against any individual or group;"
+msgstr "ITALIAN Promotes bigotry, discrimination, hatred, or violence against any individual or group;"
+
+msgid "Threatens, harasses, or intimidates any other person, whether that person is a CoderDojo community member or not;"
+msgstr "ITALIAN Threatens, harasses, or intimidates any other person, whether that person is a CoderDojo community member or not;"
+
+msgid "Could be considered cyber bullying;"
+msgstr "ITALIAN Could be considered cyber bullying;"
+
+msgid "Contains foul language or personal attacks;"
+msgstr "ITALIAN Contains foul language or personal attacks;"
+
+msgid "Contains sexually explicit or graphically violent material;"
+msgstr "ITALIAN Contains sexually explicit or graphically violent material;"
+
+msgid "Provides instructions on how to commit illegal activities or obtain illegal products;"
+msgstr "ITALIAN Provides instructions on how to commit illegal activities or obtain illegal products;"
+
+msgid "Except in connection with organizing CoderDojo events, asks any other user for personally identifying information, contact information, or passwords; or"
+msgstr "ITALIAN Except in connection with organizing CoderDojo events, asks any other user for personally identifying information, contact information, or passwords; or"
+
+msgid "Exposes any others person's personally identifying information, contact information, or passwords without that person's permission."
+msgstr "ITALIAN Exposes any others person's personally identifying information, contact information, or passwords without that person's permission."
+
+msgid "You agree to comply with all applicable laws and regulations when you use Zen. You may not use Zen in any unlawful way, including to harass, stalk, or defame any other person."
+msgstr "ITALIAN You agree to comply with all applicable laws and regulations when you use Zen. You may not use Zen in any unlawful way, including to harass, stalk, or defame any other person."
+
+msgid "You may not impersonate, imitate or pretend to be somebody else when using the Services."
+msgstr "ITALIAN You may not impersonate, imitate or pretend to be somebody else when using the Services."
+
+msgid "You agree not to use Zen in any way intended to disrupt the service, gain unauthorized access to the service, or interfere with any other user's ability to use the service. Prohibited activities include, but are not limited to:"
+msgstr "ITALIAN You agree not to use Zen in any way intended to disrupt the service, gain unauthorized access to the service, or interfere with any other user's ability to use the service. Prohibited activities include, but are not limited to:"
+
+msgid "Posting content deliberately designed to crash the Zen platform;"
+msgstr "ITALIAN Posting content deliberately designed to crash the Zen platform;"
+
+msgid "Linking to pages containing viruses or malware;"
+msgstr "ITALIAN Linking to pages containing viruses or malware;"
+
+msgid "Using administrator passwords or pretending to be an administrator;"
+msgstr "ITALIAN Using administrator passwords or pretending to be an administrator;"
+
+msgid "Repeatedly posting the same material, or \"spamming.\""
+msgstr "ITALIAN Repeatedly posting the same material, or \"spamming.\""
+
+msgid "Commercial use of Zen, user-generated content, and support materials is permitted under the <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license</a>. However, the CoderDojo Foundation Team reserves the right to block any commercial use of Zen that, in the CoderDojo Foundation Team's sole discretion, is harmful to the community. Harmful commercial use includes spamming or repeated advertisement through projects, comments, or forum posts."
+msgstr "ITALIAN Commercial use of Zen, user-generated content, and support materials is permitted under the <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license</a>. However, the CoderDojo Foundation Team reserves the right to block any commercial use of Zen that, in the CoderDojo Foundation Team's sole discretion, is harmful to the community. Harmful commercial use includes spamming or repeated advertisement through projects, comments, or forum posts."
+
+msgid "SECTION 4 - MODIFICATION OF THE TERMS"
+msgstr "ITALIAN SECTION 4 - MODIFICATION OF THE TERMS"
+
+msgid "CoderDojo Foundation reserves the right, at our discretion, to change, modify, add, or remove portions of the Terms at any time. Please check the Terms and any Guidelines periodically for changes. Your continued use of Zen after the posting of changes constitutes your binding acceptance of such changes. For any material changes to the Terms, CoderDojo Foundation will make reasonable effort to provide notice to you of such amended Terms, such as by an email notification to the address associated with your account or by posting a notice on the Website, and such amended terms will be effective against You on the earlier of (i) your actual notice of such changes and (ii) thirty days after CoderDojo Foundation makes reasonable attempt to provide you such notice. Disputes arising under these Terms will be resolved in accordance with the version of the Terms in place at the time the dispute arose."
+msgstr "ITALIAN CoderDojo Foundation reserves the right, at our discretion, to change, modify, add, or remove portions of the Terms at any time. Please check the Terms and any Guidelines periodically for changes. Your continued use of Zen after the posting of changes constitutes your binding acceptance of such changes. For any material changes to the Terms, CoderDojo Foundation will make reasonable effort to provide notice to you of such amended Terms, such as by an email notification to the address associated with your account or by posting a notice on the Website, and such amended terms will be effective against You on the earlier of (i) your actual notice of such changes and (ii) thirty days after CoderDojo Foundation makes reasonable attempt to provide you such notice. Disputes arising under these Terms will be resolved in accordance with the version of the Terms in place at the time the dispute arose."
+
+msgid "SECTION 5 - USER CONTENT LICENSE GRANT; REPRESENTATIONS AND WARRANTIES"
+msgstr "ITALIAN SECTION 5 - USER CONTENT LICENSE GRANT; REPRESENTATIONS AND WARRANTIES"
+
+msgid "CoderDojo Foundation may permit (a) the posting and/or publishing by You and other Users of notes, questions, comments, ratings, reviews, images, videos and other audio-visual materials and communications (collectively, \"User Postings\") and (b) the posting, creation, or modification by You and other users of computer code (including source code and object code) (\"User Code\|) (User Postings and User Code, collectively, \"User Content\"). You understand that whether or not such User Content is published, CoderDojo Foundation does not guarantee any confidentiality with respect to any submissions."
+msgstr "ITALIAN CoderDojo Foundation may permit (a) the posting and/or publishing by You and other Users of notes, questions, comments, ratings, reviews, images, videos and other audio-visual materials and communications (collectively, \"User Postings\") and (b) the posting, creation, or modification by You and other users of computer code (including source code and object code) (\"User Code\|) (User Postings and User Code, collectively, \"User Content\"). You understand that whether or not such User Content is published, CoderDojo Foundation does not guarantee any confidentiality with respect to any submissions."
+
+msgid "License Grant to CoderDojo Foundation."
+msgstr "ITALIAN License Grant to CoderDojo Foundation."
+
+msgid "Whenever you make use of a feature that allows you to upload material to our Website, or to make contact with other users of our Website, you must comply with all applicable laws and our User Content Representations and Warranties and User Content Disclaimer.  Any material you upload to our Website will be considered non-confidential and nonproprietary, and we have the right to use, copy, distribute and disclose to third parties any such material for any purpose (except where specifically identified as third party content). We also have the right to disclose your identity to any third party who is claiming that any material posted or uploaded by you to our website constitutes a violation of their intellectual property rights, or of their right to privacy. We will not be responsible, or liable to any third party, for the content or accuracy of any materials posted by you or any other user. We have the right to remove any material or posting you make on our Website if, in our opinion, such material does not comply with applicable laws or our User Content Representations and Warranties and User Content Disclaimer."
+msgstr "ITALIAN Whenever you make use of a feature that allows you to upload material to our Website, or to make contact with other users of our Website, you must comply with all applicable laws and our User Content Representations and Warranties and User Content Disclaimer.  Any material you upload to our Website will be considered non-confidential and nonproprietary, and we have the right to use, copy, distribute and disclose to third parties any such material for any purpose (except where specifically identified as third party content). We also have the right to disclose your identity to any third party who is claiming that any material posted or uploaded by you to our website constitutes a violation of their intellectual property rights, or of their right to privacy. We will not be responsible, or liable to any third party, for the content or accuracy of any materials posted by you or any other user. We have the right to remove any material or posting you make on our Website if, in our opinion, such material does not comply with applicable laws or our User Content Representations and Warranties and User Content Disclaimer."
+
+msgid "License Grant to Users."
+msgstr "ITALIAN License Grant to Users."
+
+msgid "(a) User Postings. By posting, submitting or distributing User Postings through the Website, You hereby grant to each User of the Website a non-exclusive license to access and use your User Postings in any manner permitted or made available by CoderDojo Foundation on or through the Website."
+msgstr "ITALIAN (a) User Postings. By posting, submitting or distributing User Postings through the Website, You hereby grant to each User of the Website a non-exclusive license to access and use your User Postings in any manner permitted or made available by CoderDojo Foundation on or through the Website."
+
+msgid "(b) User Code. By posting, submitting or distributing User Code through the Website, You hereby grant to each User of the Website a non-exclusive license to access, use, reproduce, and distribute your User Code as fully permitted under, and in accordance with the terms of, the MIT license (currently available at: http://opensource.org/licenses/mit-license.php) (the \"MIT License\")."
+msgstr "ITALIAN (b) User Code. By posting, submitting or distributing User Code through the Website, You hereby grant to each User of the Website a non-exclusive license to access, use, reproduce, and distribute your User Code as fully permitted under, and in accordance with the terms of, the MIT license (currently available at: http://opensource.org/licenses/mit-license.php) (the \"MIT License\")."
+
+msgid "User Content Representations and Warranties."
+msgstr "ITALIAN User Content Representations and Warranties."
+
+msgid "You are solely responsible for your User Content and the consequences of posting, creating, or publishing them. You represent and warrant that: (1) You are the creator and owner of or have the necessary licenses, rights, consents, and permissions to use and to authorize CoderDojo Foundation and Zen's Users to use and distribute your User Content as necessary to exercise the licenses granted by You in these Terms and in the manner contemplated by CoderDojo Foundation and these Terms; (2) your User Content does not and will not: (a) infringe, violate, or misappropriate any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right or (b) slander, defame, libel, or invade the right of privacy, publicity or other property rights of any other person; and (3) your User Content does not contain any viruses, adware, spyware, worms, or other malicious code."
+msgstr "ITALIAN You are solely responsible for your User Content and the consequences of posting, creating, or publishing them. You represent and warrant that: (1) You are the creator and owner of or have the necessary licenses, rights, consents, and permissions to use and to authorize CoderDojo Foundation and Zen's Users to use and distribute your User Content as necessary to exercise the licenses granted by You in these Terms and in the manner contemplated by CoderDojo Foundation and these Terms; (2) your User Content does not and will not: (a) infringe, violate, or misappropriate any third-party right, including any copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right or (b) slander, defame, libel, or invade the right of privacy, publicity or other property rights of any other person; and (3) your User Content does not contain any viruses, adware, spyware, worms, or other malicious code."
+
+msgid "Access to Your User Content."
+msgstr "ITALIAN Access to Your User Content."
+
+msgid "The CoderDojo Foundation may permit Users to share their User Content with a select group of other Users, or make their User Content public for all (even non-Website users) to view. You acknowledge and agree that, although Zen may provide certain features intended to allow you to restrict some User Content you create from others, The CoderDojo Foundation does not guarantee that such User Content will never be accessible by others. In the event of unauthorized access, The CoderDojo Foundation will use reasonable efforts to notify you pursuant to Section 14.1 below. THE CODERDOJO FOUNDATION HEREBY DISCLAIMS ANY AND ALL LIABILITY WITH RESPECT TO ANY UNAUTHORIZED ACCESS TO ANY RESTRICTED USER CONTENT."
+msgstr "ITALIAN The CoderDojo Foundation may permit Users to share their User Content with a select group of other Users, or make their User Content public for all (even non-Website users) to view. You acknowledge and agree that, although Zen may provide certain features intended to allow you to restrict some User Content you create from others, The CoderDojo Foundation does not guarantee that such User Content will never be accessible by others. In the event of unauthorized access, The CoderDojo Foundation will use reasonable efforts to notify you pursuant to Section 14.1 below. THE CODERDOJO FOUNDATION HEREBY DISCLAIMS ANY AND ALL LIABILITY WITH RESPECT TO ANY UNAUTHORIZED ACCESS TO ANY RESTRICTED USER CONTENT."
+
+msgid "User Content Disclaimer."
+msgstr "ITALIAN User Content Disclaimer."
+
+msgid "You understand that when using the Website You will be exposed to User Content from a variety of sources, and that The CoderDojo Foundation is not responsible for the accuracy, usefulness, or intellectual property rights of or relating to such User Content. You further understand and acknowledge that You may be exposed to User Content that is inaccurate, offensive, indecent or objectionable, and You agree to waive, and hereby do waive, any legal or equitable rights or remedies You have or may have against The CoderDojo Foundation with respect thereto. The CoderDojo Foundation does not endorse any User Content or any opinion, recommendation or advice expressed therein, and The CoderDojo Foundation expressly disclaims any and all liability in connection with User Content."
+msgstr "ITALIAN You understand that when using the Website You will be exposed to User Content from a variety of sources, and that The CoderDojo Foundation is not responsible for the accuracy, usefulness, or intellectual property rights of or relating to such User Content. You further understand and acknowledge that You may be exposed to User Content that is inaccurate, offensive, indecent or objectionable, and You agree to waive, and hereby do waive, any legal or equitable rights or remedies You have or may have against The CoderDojo Foundation with respect thereto. The CoderDojo Foundation does not endorse any User Content or any opinion, recommendation or advice expressed therein, and The CoderDojo Foundation expressly disclaims any and all liability in connection with User Content."
+
+msgid "SECTION 6 - SUSPENSION AND TERMINATION OF ACCOUNTS"
+msgstr "ITALIAN SECTION 6 - SUSPENSION AND TERMINATION OF ACCOUNTS"
+
+msgid "The CoderDojo Foundation has the right to suspend your account for violations of the Terms of Use. Repeat violators may have their account deleted. The CoderDojo Foundation reserves the sole right to determine what constitutes a violation of the Terms of Use. The CoderDojo Foundation also reserves the right to terminate any account used to circumvent prior enforcement of the Terms of Use."
+msgstr "ITALIAN The CoderDojo Foundation has the right to suspend your account for violations of the Terms of Use. Repeat violators may have their account deleted. The CoderDojo Foundation reserves the sole right to determine what constitutes a violation of the Terms of Use. The CoderDojo Foundation also reserves the right to terminate any account used to circumvent prior enforcement of the Terms of Use."
+
+msgid "If you want to delete or temporarily disable your account, please email info@coderdojo.com."
+msgstr "ITALIAN If you want to delete or temporarily disable your account, please email info@coderdojo.com."
+
+msgid "SECTION 7 - THIRD PARTY WEBSITES"
+msgstr "ITALIAN SECTION 7 - THIRD PARTY WEBSITES"
+
+msgid "Content on Zen, including user-generated content, may include links to third party websites. The CoderDojo Foundation is not capable of reviewing or managing third party websites, and assumes no responsibility for the privacy practices, content, or functionality of third party websites. You agree to relieve the CoderDojo Foundation of any and all liability arising from third party websites."
+msgstr "ITALIAN Content on Zen, including user-generated content, may include links to third party websites. The CoderDojo Foundation is not capable of reviewing or managing third party websites, and assumes no responsibility for the privacy practices, content, or functionality of third party websites. You agree to relieve the CoderDojo Foundation of any and all liability arising from third party websites."
+
+msgid "SECTION 8 - INDEMNIFICATION"
+msgstr "ITALIAN SECTION 8 - INDEMNIFICATION"
+
+msgid "You agree to indemnify The CoderDojo Foundation, and all their affiliates, employees, faculty members, fellows, students, agents, representatives, third party service providers, and members of their governing boards (all of which are \"CoderDojo Entities\"), and to defend and hold each of them harmless, from any and all claims and liabilities (including attorneys' fees) arising out of or related to your breach of the Terms of Service or your use of Zen."
+msgstr "ITALIAN You agree to indemnify The CoderDojo Foundation, and all their affiliates, employees, faculty members, fellows, students, agents, representatives, third party service providers, and members of their governing boards (all of which are "CoderDojo Entities"), and to defend and hold each of them harmless, from any and all claims and liabilities (including attorneys' fees) arising out of or related to your breach of the Terms of Service or your use of Zen."
+
+msgid "SECTION 9 - DISCLAIMER OF WARRANTY"
+msgstr "ITALIAN SECTION 9 - DISCLAIMER OF WARRANTY"
+
+msgid "You acknowledge that you are using Zen at your own risk. Zen is provided \"as is,\" and the CoderDojo Foundation hereby expressly disclaim any and all warranties, express and implied, including but not limited to any warranties of accuracy, reliability, title, merchantability, non-infringement, fitness for a particular purpose or any other warranty, condition, guarantee or representation, whether oral, in writing or in electronic form, including but not limited to the accuracy or completeness of any information contained therein or provided by Zen. Without limiting the foregoing, the CoderDojo Foundation disclaim any and all warranties, express and implied, regarding user-generated content and CoderDojo events. The CoderDojo Foundation and their third party service providers do not represent or warrant that access to Zen will be uninterrupted or that there will be no failures, errors or omissions or loss of transmitted information, or that no viruses will be transmitted through Zen services."
+msgstr "ITALIAN You acknowledge that you are using Zen at your own risk. Zen is provided \"as is,\" and the CoderDojo Foundation hereby expressly disclaim any and all warranties, express and implied, including but not limited to any warranties of accuracy, reliability, title, merchantability, non-infringement, fitness for a particular purpose or any other warranty, condition, guarantee or representation, whether oral, in writing or in electronic form, including but not limited to the accuracy or completeness of any information contained therein or provided by Zen. Without limiting the foregoing, the CoderDojo Foundation disclaim any and all warranties, express and implied, regarding user-generated content and CoderDojo events. The CoderDojo Foundation and their third party service providers do not represent or warrant that access to Zen will be uninterrupted or that there will be no failures, errors or omissions or loss of transmitted information, or that no viruses will be transmitted through Zen services."
+
+msgid "SECTION 10 - LIMITATION OF LIABILITY"
+msgstr "ITALIAN SECTION 10 - LIMITATION OF LIABILITY"
+
+msgid "The CoderDojo Foundation shall not be liable to you or any third parties for any direct, indirect, special, consequential or punitive damages of any kind, regardless of the type of claim or the nature of the cause of action, even if the CoderDojo has been advised of the possibility of such damages. Without limiting the foregoing, the CoderDojo Foundation shall have no liability to you or any third parties for damages or harms arising out of user-generated content or CoderDojo events."
+msgstr "ITALIAN The CoderDojo Foundation shall not be liable to you or any third parties for any direct, indirect, special, consequential or punitive damages of any kind, regardless of the type of claim or the nature of the cause of action, even if the CoderDojo has been advised of the possibility of such damages. Without limiting the foregoing, the CoderDojo Foundation shall have no liability to you or any third parties for damages or harms arising out of user-generated content or CoderDojo events."
+
+msgid "Zen is offered by the CoderDojo Foundation from its facilities in the Republic of Ireland. The CoderDojo Foundation makes no representations that Zen is appropriate or available for use in other locations. Those who access or use Zen are responsible for compliance with local law."
+msgstr "ITALIAN Zen is offered by the CoderDojo Foundation from its facilities in the Republic of Ireland. The CoderDojo Foundation makes no representations that Zen is appropriate or available for use in other locations. Those who access or use Zen are responsible for compliance with local law."
+
+msgid "SECTION 12 - CHOICE OF LANGUAGE"
+msgstr "ITALIAN SECTION 12 - CHOICE OF LANGUAGE"
+
+msgid "If the CoderDojo Foundation provides you with a translation of the English language version of these Terms of Use, the Privacy Policy, or any other policy, then you agree that the translation is provided for informational purposes only and does not modify the English language version. In the event of a conflict between a translation and the English version, the English version will govern."
+msgstr "ITALIAN If the CoderDojo Foundation provides you with a translation of the English language version of these Terms of Use, the Privacy Policy, or any other policy, then you agree that the translation is provided for informational purposes only and does not modify the English language version. In the event of a conflict between a translation and the English version, the English version will govern."
+
+msgid "SECTION 13 - NO WAIVER"
+msgstr "ITALIAN SECTION 13 - NO WAIVER"
+
+msgid "No waiver of any term of these Terms of Use shall be deemed a further or continuing waiver of such term or any other term, and the CoderDojo Foundation's failure to assert any right or provision under these Terms of Use shall not constitute a waiver of such right or provision."
+msgstr "ITALIAN No waiver of any term of these Terms of Use shall be deemed a further or continuing waiver of such term or any other term, and the CoderDojo Foundation's failure to assert any right or provision under these Terms of Use shall not constitute a waiver of such right or provision."
+
+msgid "SECTION 14 - ENTIRE AGREEMENT"
+msgstr "ITALIAN SECTION 14 - ENTIRE AGREEMENT"
+
+msgid "This document, together with all appendices, constitutes the entire Terms of Use and supersedes all previous agreements with the CoderDojo Foundation relating to the use of Zen."
+msgstr "ITALIAN This document, together with all appendices, constitutes the entire Terms of Use and supersedes all previous agreements with the CoderDojo Foundation relating to the use of Zen."
+
+msgid "Revision date:  29th July 2015"
+msgstr "ITALIAN Revision date:  29th July 2015"
+
+msgid "CoderDojo Champion Registration Form"
+msgstr "ITALIAN CoderDojo Champion Registration Form"
+
+msgid "General Information"
+msgstr "ITALIAN General Information"
+
+msgid "Email Address"
+msgstr "ITALIAN Email Address"
+
+msgid "Please provide a personal email address."
+msgstr "ITALIAN Please provide a personal email address."
+
+msgid "Full Name"
+msgstr "ITALIAN Full Name"
+
+msgid "Please provide your full name"
+msgstr "ITALIAN Please provide your full name"
+
+msgid "Planned Dojo Location"
+msgstr "ITALIAN Planned Dojo Location"
+
+msgid "Please let us know where in the world you are planning to set up your Dojo. eg. Town, City, State, Country"
+msgstr "ITALIAN Please let us know where in the world you are planning to set up your Dojo. eg. Town, City, State, Country"
+
+msgid "Planned Dojo Location is empty"
+msgstr "ITALIAN Planned Dojo Location is empty"
+
+msgid "Date of Birth"
+msgstr "ITALIAN Date of Birth"
+
+msgid "Telephone Number"
+msgstr "ITALIAN Telephone Number"
+
+msgid "Telephone Number is empty"
+msgstr "ITALIAN Telephone Number is empty"
+
+msgid "Experience"
+msgstr "ITALIAN Experience"
+
+msgid "Do you have any relevant experience working with young people"
+msgstr "ITALIAN Do you have any relevant experience working with young people?"
+
+msgid "Experience is empty"
+msgstr "ITALIAN Experience is empty"
+
+msgid "Please include country code."
+msgstr "ITALIAN Please include country code."
+
+msgid "Please let us know of any technical experience you have that will help you run your Dojo. This is not required to organise a Dojo, as long you find a solid team of technical mentors. If none, please respond N/A."
+msgstr "ITALIAN Please let us know of any technical experience you have that will help you run your Dojo. This is not required to organise a Dojo, as long you find a solid team of technical mentors. If none, please respond N/A."
+
+msgid "Please list any relevant technical experience"
+msgstr "ITALIAN Please list any relevant technical experience."
+
+msgid "Technical Experience is empty"
+msgstr "ITALIAN Technical Experience is empty"
+
+msgid "How did you hear about CoderDojo"
+msgstr "ITALIAN How did you hear about CoderDojo?"
+
+msgid "Social"
+msgstr "ITALIAN Social"
+
+msgid "Twitter"
+msgstr "ITALIAN Twitter"
+
+msgid "If you wish please provide your username or a link to your Twitter page."
+msgstr "ITALIAN If you wish please provide your username or a link to your Twitter page."
+
+msgid "LinkedIn"
+msgstr "ITALIAN LinkedIn"
+
+msgid "If you wish please provide your username or a link to your LinkedIn page."
+msgstr "ITALIAN If you wish please provide your username or a link to your LinkedIn page."
+
+msgid "Google+"
+msgstr "ITALIAN Google+"
+
+msgid "Google"
+msgstr "ITALIAN Google"
+
+msgid "If you wish please provide your username or a link to your Google+"
+msgstr "ITALIAN If you wish please provide your username or a link to your Google+"
+
+msgid "Do you have access to technical mentors"
+msgstr "ITALIAN Do you have access to technical mentors?"
+
+msgid "It is recommended to find a team of interested local technical volunteers to mentor and to find non-technical volunteers, such as parents, who can help out and volunteer when they bring their children etc. You do not need to have a big team but it is always better to have support from a core team when organising a Dojo. You can then have planning meetings with your team in advance of setting up your Dojo"
+msgstr "ITALIAN It is recommended to find a team of interested local technical volunteers to mentor and to find non-technical volunteers, such as parents, who can help out and volunteer when they bring their children etc. You do not need to have a big team but it is always better to have support from a core team when organising a Dojo. You can then have planning meetings with your team in advance of setting up your Dojo"
+
+msgid "Select an option"
+msgstr "ITALIAN Select an option"
+
+msgid "Do you have access to a venue"
+msgstr "ITALIAN Do you have access to a venue?"
+
+msgid "Dojos cannot be hosted in private residences, they must be in a public space such as a library, business, canteens, schools or community centres. We recommend that the young people attending bring their own laptops so the venue should have, at least, plug sockets for laptops, internet access and tables and chairs for the attendees."
+msgstr "ITALIAN Dojos cannot be hosted in private residences, they must be in a public space such as a library, business, canteens, schools or community centres. We recommend that the young people attending bring their own laptops so the venue should have, at least, plug sockets for laptops, internet access and tables and chairs for the attendees."
+
+msgid "Champion Application"
+msgstr "ITALIAN Champion Application"
+
+msgid "Country"
+msgstr "ITALIAN Country"
+
+msgid "CityTown"
+msgstr "ITALIAN City/Town"
+
+msgid "Languages Spoken"
+msgstr "ITALIAN Languages Spoken"
+
+msgid "Projects"
+msgstr "ITALIAN Projects"
+
+msgid "Prerequisites"
+msgstr "ITALIAN Prerequisites"
+
+msgid "Notes"
+msgstr "ITALIAN Notes"
+
+msgid "Search Engine"
+msgstr "ITALIAN Search Engine"
+
+msgid "Other CoderDojo Volunteers"
+msgstr "ITALIAN Other CoderDojo Volunteers"
+
+msgid "Other Coding Organisations"
+msgstr "ITALIAN Other Coding Organisations"
+
+msgid "Development Community"
+msgstr "ITALIAN Development Community"
+
+msgid "Events"
+msgstr "ITALIAN Events"
+
+msgid "Word of Mouth"
+msgstr "ITALIAN Word of Mouth"
+
+msgid "Family/Friends"
+msgstr "ITALIAN Family/Friends"
+
+msgid "Media (newspaper/radio)"
+msgstr "ITALIAN Media (newspaper/radio)"
+
+msgid "Other"
+msgstr "ITALIAN Other"
+
+msgid "CoderDojo Foundation charter for CoderDojo"
+msgstr "ITALIAN CoderDojo Foundation charter for CoderDojo"
+
+msgid "All Dojos are required to agree with the below CoderDojo Charter. This Charter encompasses the basic ethos and core aspects of the CoderDojo movement, which all Dojos are founded on. The introduction of the Charter was announced by co-founder James Whelton to the CoderDojo Organisers Group on the 3rd of December 2013."
+msgstr "ITALIAN All Dojos are required to agree with the below CoderDojo Charter. This Charter encompasses the basic ethos and core aspects of the CoderDojo movement, which all Dojos are founded on. The introduction of the Charter was announced by co-founder James Whelton to the CoderDojo Organisers Group on the 3rd of December 2013."
+
+msgid "For the purposes of this Charter, \"CoderDojo\" shall mean the open source, volunteer led movement orientated around running free not-for-profit coding clubs. \"Dojos\" shall mean the not-for profit coding clubs established to support communities and spread the philosophy of CoderDojo."
+msgstr "ITALIAN For the purposes of this Charter, \"CoderDojo\" shall mean the open source, volunteer led movement orientated around running free not-for-profit coding clubs. \"Dojos\" shall mean the not-for profit coding clubs established to support communities and spread the philosophy of CoderDojo."
+
+msgid "All Dojos are independent, autonomous, community groups set up to inspire young people to learn code. All Dojos have different styles of operating but they all hold the same ethos."
+msgstr "ITALIAN All Dojos are independent, autonomous, community groups set up to inspire young people to learn code. All Dojos have different styles of operating but they all hold the same ethos."
+
+msgid "We commit to inspiring and supporting young people to learn how to create technology"
+msgstr "ITALIAN We commit to inspiring and supporting young people to learn how to create technology"
+
+msgid "We commit to inspiring and supporting young people to learn how to create technology"
+msgstr "ITALIAN We commit to inspiring and supporting young people to learn how to create technology"
+
+msgid "We commit to the highest possible standards of child protection in our jurisdiction"
+msgstr "ITALIAN We commit to the highest possible standards of child protection in our jurisdiction"
+
+msgid "We commit to not charging children attending nor their parents"
+msgstr "ITALIAN We commit to not charging children attending nor their parents"
+
+msgid "We commit to encourage parent participation within our Dojo"
+msgstr "ITALIAN We commit to encourage parent participation within our Dojo"
+
+msgid "We commit to sharing our knowledge for free (libre and open)"
+msgstr "ITALIAN We commit to sharing our knowledge for free (libre and open)"
+
+msgid "We commit to share our knowledge within our Dojo and to other Dojos"
+msgstr "ITALIAN We commit to share our knowledge within our Dojo and to other Dojos"
+
+msgid "We commit to take care and uphold the good name of the global CoderDojo community"
+msgstr "ITALIAN We commit to take care and uphold the good name of the global CoderDojo community"
+
+msgid "We commit to encouraging collaboration, peer to peer mentoring and project work between the attendees"
+msgstr "ITALIAN We commit to encouraging collaboration, peer to peer mentoring and project work between the attendees"
+
+msgid "We commit to welcoming volunteers and children regardless of gender, race, sexual orientation, creed, religion or ability."
+msgstr "ITALIAN We commit to welcoming volunteers and children regardless of gender, race, sexual orientation, creed, religion or ability."
+
+msgid "CoderDojo Foundation (CDF) commitments to you:"
+msgstr "ITALIAN CoderDojo Foundation (CDF) commitments to you:"
+
+msgid "CDF commits to act in the interest of the global CoderDojo community"
+msgstr "ITALIAN CDF commits to act in the interest of the global CoderDojo community"
+
+msgid "CDF commits to facilitating the community to share its knowledge"
+msgstr "ITALIAN CDF commits to facilitating the community to share its knowledge"
+
+msgid "CDF commits to sharing our resources for free"
+msgstr "ITALIAN CDF commits to sharing our resources for free"
+
+msgid "CDF commits to encouraging active involvement in our organisation"
+msgstr "ITALIAN CDF commits to encouraging active involvement in our organisation"
+
+msgid "Agreement"
+msgstr "ITALIAN Agreement"
+
+msgid "On registration you are making an agreement with the CoderDojo Foundation and agreeing to follow the CoderDojo ethos."
+msgstr "ITALIAN On registration you are making an agreement with the CoderDojo Foundation and agreeing to follow the CoderDojo ethos."
+
+msgid "You are entitled to use the CoderDojo name, logo and website to promote your activity for non commercial use"
+msgstr "ITALIAN You are entitled to use the CoderDojo name, logo and website to promote your activity for non commercial use"
+
+msgid "You are entitled to fundraise on the condition that it is made explicit you do so for your Dojo or as a group of Dojos under a group name (EG Dojos of California) and inappropriate fundraising is a breach of this Charter."
+msgstr "ITALIAN You are entitled to fundraise on the condition that it is made explicit you do so for your Dojo or as a group of Dojos under a group name (EG Dojos of California) and inappropriate fundraising is a breach of this Charter."
+
+msgid "It is your responsibility to ensure you are compliant with legislation in your jurisdiction when undertaking any activities, including fundraising, for your Dojo or group of Dojos."
+msgstr "ITALIAN It is your responsibility to ensure you are compliant with legislation in your jurisdiction when undertaking any activities, including fundraising, for your Dojo or group of Dojos."
+
+msgid "If the terms of this Charter are breached, CoderDojo Foundation retains the right to remove the group from the website. In this case your coding club shall cease using the CoderDojo name, brand and logo in the promotion of your coding club and on third party websites."
+msgstr "ITALIAN If the terms of this Charter are breached, CoderDojo Foundation retains the right to remove the group from the website. In this case your coding club shall cease using the CoderDojo name, brand and logo in the promotion of your coding club and on third party websites."
+
+msgid "Opinions expressed by any individual Dojo or people in the registered Dojo do not represent the views of CoderDojo Foundation."
+msgstr "ITALIAN Opinions expressed by any individual Dojo or people in the registered Dojo do not represent the views of CoderDojo Foundation."
+
+msgid "CoderDojo Foundation may terminate this Charter with any Dojo without cause on thirty days' notice."
+msgstr "ITALIAN CoderDojo Foundation may terminate this Charter with any Dojo without cause on thirty days' notice."
+
+msgid "As CoderDojo Foundation is an Irish entity, this Charter is subject to Irish law and you agree to that."
+msgstr "ITALIAN As CoderDojo Foundation is an Irish entity, this Charter is subject to Irish law and you agree to that."
+
+msgid "Disclaimer of Liability"
+msgstr "ITALIAN Disclaimer of Liability"
+
+msgid "CoderDojo Foundation accepts no responsibility or liability whatsoever where a party is injured while engaging in the activities of a registered group. It is the responsibility of each club to ensure they maintain valid and appropriate insurance."
+msgstr "ITALIAN CoderDojo Foundation accepts no responsibility or liability whatsoever where a party is injured while engaging in the activities of a registered group. It is the responsibility of each club to ensure they maintain valid and appropriate insurance."
+
+msgid "You are solely responsible for the activities conducted by your own Dojo. Agreeing to this Charter does not constitute endorsement of those activities by the CoderDojo Foundation."
+msgstr "ITALIAN You are solely responsible for the activities conducted by your own Dojo. Agreeing to this Charter does not constitute endorsement of those activities by the CoderDojo Foundation."
+
+msgid "There are unsaved changes on this page"
+msgstr "ITALIAN There are unsaved changes on this page"
+
+msgid "Full Name:"
+msgstr "ITALIAN Full Name:"
+
+msgid "You must enter your full name"
+msgstr "ITALIAN You must enter your full name"
+
+msgid "You must accept the charter"
+msgstr "ITALIAN You must accept the charter"
+
+msgid "I have read and accepted the above charter"
+msgstr "ITALIAN I have read and accepted the above charter"
+
+msgid "Next"
+msgstr "ITALIAN Next"
+
+msgid "Dojo Menu"
+msgstr "ITALIAN Dojo Menu"
+
+msgid "Events"
+msgstr "ITALIAN Events"
+
+msgid "Forum"
+msgstr "ITALIAN Forum"
+
+msgid "Charter"
+msgstr "ITALIAN Charter"
+
+msgid "FAQ"
+msgstr "ITALIAN FAQ"
+
+msgid "CoolestProjects2015"
+msgstr "ITALIAN CoolestProjects2015"
+
+msgid "Opens in new window"
+msgstr "ITALIAN Opens in new window"
+
+msgid "Find a Dojo"
+msgstr "ITALIAN Find a Dojo"
+
+msgid "Resources"
+msgstr "ITALIAN Resources"
+
+msgid "Dojo List"
+msgstr "ITALIAN Dojo List"
+
+msgid "My Dojos"
+msgstr "ITALIAN My Dojos"
+
+msgid "Create Dojo"
+msgstr "ITALIAN Create Dojo"
+
+msgid "Start a Dojo"
+msgstr "ITALIAN Start a Dojo"
+
+msgid "Manage Dojos"
+msgstr "ITALIAN Manage Dojos"
+
+msgid "Stats"
+msgstr "ITALIAN Stats"
+
+msgid "Logout"
+msgstr "ITALIAN Logout"
+
+msgid "Create a Dojo"
+msgstr "ITALIAN Create a Dojo"
+
+msgid "Adult Forums"
+msgstr "ITALIAN Adult Forums"
+
+msgid "User Invitation"
+msgstr "ITALIAN User Invitation"
+
+msgid "User Request"
+msgstr "ITALIAN User Request"
+
+msgid "User Request is being validated..."
+msgstr "ITALIAN User Request is being validated..."
+
+msgid "Status"
+msgstr "ITALIAN Status"
+
+msgid "Join"
+msgstr "ITALIAN Join"
+
+msgid "Send Request"
+msgstr "ITALIAN Send Request"
+
+msgid "Contact"
+msgstr "ITALIAN Contact"
+
+msgid "Email"
+msgstr "ITALIAN Email"
+
+msgid "Dojo Email"
+msgstr "ITALIAN Dojo Email"
+
+msgid "Website"
+msgstr "ITALIAN Website"
+
+msgid "Google Group"
+msgstr "ITALIAN Google Group"
+
+msgid "Time"
+msgstr "ITALIAN Time"
+
+msgid "Location"
+msgstr "ITALIAN Location"
+
+msgid "Map"
+msgstr "ITALIAN Map"
+
+msgid "To register a Dojo you first need an account. Sign up here:"
+msgstr "ITALIAN To register a Dojo you first need an account. Sign up here:"
+
+msgid "The Dojos listed here are all verified by the CoderDojo team."
+msgstr "ITALIAN The Dojos listed here are all verified by the CoderDojo team."
+
+msgid "Learn more"
+msgstr "ITALIAN Learn more..."
+
+msgid "Search Results"
+msgstr "ITALIAN Search Results"
+
+msgid "Your closest dojos"
+msgstr "ITALIAN Your closest dojos"
+
+msgid "Where are you?"
+msgstr "ITALIAN Where are you?"
+
+msgid "Dojo Information"
+msgstr "ITALIAN Dojo Information"
+
+msgid "Dojo Name"
+msgstr "ITALIAN Dojo Name"
+
+msgid "Normally named after an area, like \"Cork\", or if there are multiple Dojos are in your area \"San Fran @ GitHub\". Try refrain from prefixing the name with \"CoderDojo\"."
+msgstr "ITALIAN Normally named after an area, like \"Cork\", or if there are multiple Dojos are in your area \"San Fran @ GitHub\". Try refrain from prefixing the name with \"CoderDojo\"."
+
+msgid "This should be different to the personal email you signed up for an account here with. For your own CoderDojo email address (e.g. limerick@coderdojo.com), please contact us and leave this field blank."
+msgstr "ITALIAN This should be different to the personal email you signed up for an account here with. For your own CoderDojo email address (e.g. limerick@coderdojo.com), please contact us and leave this field blank."
+
+msgid "Times are empty"
+msgstr "ITALIAN Times are empty"
+
+msgid "State whether it's every week or on a certain day (Eg. \"Every Friday, 5.30pm - 8pm\" or \"Saturday 25th, 12pm - 3pm\")"
+msgstr "ITALIAN State whether it's every week or on a certain day (Eg. \"Every Friday, 5.30pm - 8pm\" or \"Saturday 25th, 12pm - 3pm\")"
+
+msgid "Select or search a country in the list..."
+msgstr "ITALIAN Select or search a country in the list..."
+
+msgid "Select a country"
+msgstr "ITALIAN Select a country"
+
+msgid "Search for or enter your area"
+msgstr "ITALIAN Search for or enter your area"
+
+msgid "Select a place"
+msgstr "ITALIAN Select a place"
+
+msgid "Address"
+msgstr "ITALIAN Address"
+
+msgid "Address of the Dojo (e.g. LIT Downtown Centre)"
+msgstr "ITALIAN Address of the Dojo (e.g. LIT Downtown Centre)"
+
+msgid "Coordinates"
+msgstr "ITALIAN Coordinates"
+
+msgid "Address is empty"
+msgstr "ITALIAN Address is empty"
+
+msgid "Get location from address"
+msgstr "ITALIAN Get location from address"
+
+msgid "Click on the map to select a location"
+msgstr "ITALIAN Click on the map to select a location"
+
+msgid "Other Information"
+msgstr "ITALIAN Other Information"
+
+msgid "Google Group URL"
+msgstr "ITALIAN Google Group URL"
+
+msgid "We recommend setting up a discussion group so people can sign up for the latest news and happenings."
+msgstr "ITALIAN We recommend setting up a discussion group so people can sign up for the latest news and happenings."
+
+msgid "Again, a useful way for sharing information and being found. We can also help share messages to followers."
+msgstr "ITALIAN Again, a useful way for sharing information and being found. We can also help share messages to followers."
+
+msgid "Mailing List"
+msgstr "ITALIAN Mailing List"
+
+msgid "Receive monthly updates to your user email address from the CoderDojo community around the world that keep you informed and help you with running your Dojo."
+msgstr "ITALIAN Receive monthly updates to your user email address from the CoderDojo community around the world that keep you informed and help you with running your Dojo."
+
+msgid "Status Messages"
+msgstr "ITALIAN Status Messages"
+
+msgid "Need Mentors"
+msgstr "ITALIAN Need Mentors"
+
+msgid "Mentors needed!"
+msgstr "ITALIAN Mentors needed!"
+
+
+msgid "Current Stage"
+msgstr "ITALIAN Current Stage"
+
+msgid "In planning"
+msgstr "ITALIAN In planning"
+
+msgid "Open, come along"
+msgstr "ITALIAN Open, come along"
+
+msgid "Register ahead"
+msgstr "ITALIAN Register ahead"
+
+msgid "Inactive"
+msgstr "ITALIAN Inactive"
+
+msgid "Full up"
+msgstr "ITALIAN Full up"
+
+msgid "Private"
+msgstr "ITALIAN Private"
+
+msgid "Please only select if your Dojo will be accessible exclusively to attendees from within your organisation, e.g. schools/universities/children of organisation's employees/etc."
+msgstr "ITALIAN Please only select if your Dojo will be accessible exclusively to attendees from within your organisation, e.g. schools/universities/children of organisation's employees/etc."
+
+msgid "Supporters Image URL"
+msgstr "ITALIAN Supporters Image URL"
+
+msgid "Manage Dojo Users"
+msgstr "ITALIAN Manage Dojo Users"
+
+msgid "Send Invite"
+msgstr "ITALIAN Send Invite"
+
+msgid "Profile"
+msgstr "ITALIAN Profile"
+
+msgid "User Types"
+msgstr "ITALIAN User Types"
+
+msgid "User Permissions"
+msgstr "ITALIAN User Permissions"
+
+msgid "Remove User"
+msgstr "ITALIAN Remove User"
+
+msgid "View Profile"
+msgstr "ITALIAN View Profile"
+
+msgid "Verification"
+msgstr "ITALIAN Verification"
+
+msgid "Any"
+msgstr "ITALIAN Any"
+
+msgid "Verified"
+msgstr "ITALIAN Verified"
+
+msgid "Unverified"
+msgstr "ITALIAN Unverified"
+
+msgid "verified"
+msgstr "ITALIAN verified"
+
+msgid "unverified"
+msgstr "ITALIAN unverified"
+
+msgid "Stage"
+msgstr "ITALIAN Stage"
+
+msgid "Dojo Email"
+msgstr "ITALIAN Dojo Email"
+
+msgid "User Email"
+msgstr "ITALIAN User Email"
+
+msgid "Filter"
+msgstr "ITALIAN Filter"
+
+msgid "Dojo"
+msgstr "ITALIAN Dojo"
+
+msgid "User"
+msgstr "ITALIAN User"
+
+msgid "Application"
+msgstr "ITALIAN Application"
+
+msgid "Edit"
+msgstr "ITALIAN Edit"
+
+msgid "Verify"
+msgstr "ITALIAN Verify"
+
+msgid "Delete"
+msgstr "ITALIAN Delete"
+
+msgid "unsigned"
+msgstr "ITALIAN unsigned"
+
+msgid "View"
+msgstr "ITALIAN View"
+
+msgid "Apply"
+msgstr "ITALIAN Apply"
+
+msgid "Users"
+msgstr "ITALIAN Users"
+
+msgid "Listing"
+msgstr "ITALIAN Listing"
+
+msgid "Times"
+msgstr "ITALIAN Times"
+
+msgid "Join Mailing List"
+msgstr "ITALIAN Join Mailing List"
+
+msgid "I have read and accept the"
+msgstr "ITALIAN I have read and accept the"
+
+msgid "Terms of Service here"
+msgstr "ITALIAN Terms of Service here"
+
+msgid "Click on each step to get started"
+msgstr "ITALIAN Click on each step to get started"
+
+msgid "Welcome New Champion! The first step towards setting up a Dojo in your area is filling out this form and giving us a little more information about yourself."
+msgstr "ITALIAN Welcome New Champion! The first step towards setting up a Dojo in your area is filling out this form and giving us a little more information about yourself."
+
+msgid "The purpose of us gathering this information is so we can tailor support to you as your start your Dojo journey!"
+msgstr "ITALIAN The purpose of us gathering this information is so we can tailor support to you as your start your Dojo journey!"
+
+msgid "If you wish to learn more about starting a CoderDojo in your area please see:"
+msgstr "ITALIAN If you wish to learn more about starting a CoderDojo in your area please see:"
+
+msgid "You must be over 18 years old..."
+msgstr "ITALIAN You must be over 18 years old..."
+
+msgid "Please include country code..."
+msgstr "ITALIAN Please include country code..."
+
+msgid "Address"
+msgstr "ITALIAN Address"
+
+msgid "Enter your street level address..."
+msgstr "ITALIAN Enter your street level address..."
+
+msgid "Address is empty"
+msgstr "ITALIAN Address is empty"
+
+msgid "Technical Experience"
+msgstr "ITALIAN Technical Experience"
+
+msgid "Please describe any websites, apps or open source work that you have done."
+msgstr "ITALIAN Please describe any websites, apps or open source work that you have done."
+
+msgid "Experience working with youth"
+msgstr "ITALIAN Experience working with youth"
+
+msgid "Please describe your experience working with youth."
+msgstr "ITALIAN Please describe your experience working with youth."
+
+msgid "Please add any other relevant information."
+msgstr "ITALIAN Please add any other relevant information."
+
+msgid "Please specify where you heard about CoderDojo"
+msgstr "ITALIAN Please specify where you heard about CoderDojo"
+
+msgid "Register Account"
+msgstr "ITALIAN Register Account"
+
+msgid "To get started, please fill in the following registration form."
+msgstr "ITALIAN To get started, please fill in the following registration form."
+
+msgid "Champion Registration"
+msgstr "ITALIAN Champion Registration"
+
+msgid "Update Champion"
+msgstr "ITALIAN Update Champion"
+
+msgid "Setup your Dojo"
+msgstr "ITALIAN Setup your Dojo"
+
+msgid "Save Dojo Setup"
+msgstr "ITALIAN Save Dojo Setup"
+
+msgid "Update Dojo Setup"
+msgstr "ITALIAN Update Dojo Setup"
+
+msgid "Create Dojo Listing"
+msgstr "ITALIAN Create Dojo Listing"
+
+msgid "Enter Dojo name"
+msgstr "ITALIAN Enter Dojo name"
+
+msgid "Enter Dojo email address"
+msgstr "ITALIAN Enter Dojo email address"
+
+msgid "Enter street level address"
+msgstr "ITALIAN Enter street level address"
+
+msgid "Enter Google group URL"
+msgstr "ITALIAN Enter Google group URL"
+
+msgid "Enter website URL"
+msgstr "ITALIAN Enter website URL"
+
+msgid "Enter Twitter profile URL"
+msgstr "ITALIAN Enter Twitter profile URL"
+
+msgid "Enter supporters image URL"
+msgstr "ITALIAN Enter supporters image URL"
+
+msgid "Thank you for submitting your dojo listing."
+msgstr "ITALIAN Thank you for submitting your dojo listing."
+
+msgid "A member from the CoderDojo Foundation team will review your listing and be in touch shortly."
+msgstr "ITALIAN A member from the CoderDojo Foundation team will review your listing and be in touch shortly."
+
+msgid "If you have a Dojo supporter(s), if they are providing space/wifi/pizza and would like to show it, enter URL to a supporter image here, please make sure it's 570px in width"
+msgstr "ITALIAN If you have a Dojo supporter(s), if they are providing space/wifi/pizza and would like to show it, enter URL to a supporter image here, please make sure it's 570px in width"
+
+msgid "persons have signed the current version of the charter"
+msgstr "ITALIAN persons have signed the current version of the charter"
+
+msgid "Active"
+msgstr "ITALIAN Active"
+
+msgid "Total"
+msgstr "ITALIAN Total"
+
+msgid "Send me an email"
+msgstr "ITALIAN Send me an email"
+
+msgid "Joined"
+msgstr "ITALIAN Joined"
+
+msgid "Social Media"
+msgstr "ITALIAN Social Media"
+
+msgid "Bio"
+msgstr "ITALIAN Bio"
+
+msgid "A description about me"
+msgstr "ITALIAN A description about me."
+
+msgid "Member of Dojos"
+msgstr "ITALIAN Member of Dojos"
+
+msgid "Gather your Team"
+msgstr "ITALIAN Gather your Team"
+
+msgid "Gather Team"
+msgstr "ITALIAN Gather Team"
+
+msgid "You must gather a team before continuing."
+msgstr "ITALIAN You must gather a team before continuing."
+
+msgid "Find Mentors"
+msgstr "ITALIAN Find Mentors"
+
+msgid "You must find mentors before continuing."
+msgstr "ITALIAN You must find mentors before continuing."
+
+msgid "Background Check"
+msgstr "ITALIAN Background Check"
+
+msgid "Please describe the situation in your Dojo and if your team has been background checked."
+msgstr "ITALIAN Please describe the situation in your Dojo and if your team has been background checked."
+
+msgid "Find your Venue"
+msgstr "ITALIAN Find your Venue"
+
+msgid "Plan your Dojo"
+msgstr "ITALIAN Plan your Dojo"
+
+msgid "Plan how frequently you will run your Dojo"
+msgstr "ITALIAN Plan how frequently you will run your Dojo"
+
+msgid "You must plan how often your Dojo will take place."
+msgstr "ITALIAN You must plan how often your Dojo will take place."
+
+msgid "Please describe when your Dojo will take place."
+msgstr "ITALIAN Please describe when your Dojo will take place."
+
+msgid "Set the first date of your Dojo"
+msgstr "ITALIAN Set the first date of your Dojo"
+
+msgid "Set up Social Media"
+msgstr "ITALIAN Set up Social Media"
+
+msgid "Set up Website"
+msgstr "ITALIAN Set up Website"
+
+msgid "Plan the content you will use"
+msgstr "ITALIAN Plan the content you will use"
+
+msgid "Invitation Accepted"
+msgstr "ITALIAN Invitation Accepted!"
+
+msgid "Invalid Invitation"
+msgstr "ITALIAN Invalid Invitation"
+
+msgid "Error accepting invitation"
+msgstr "ITALIAN 'Error accepting invitation:'"
+
+msgid "User Successfully Validated"
+msgstr "ITALIAN User Successfully Validated!"
+
+msgid "Invalid Invite Request"
+msgstr "ITALIAN Invalid Invite Request"
+
+msgid "Error validating user request"
+msgstr "ITALIAN Error validating user request:"
+
+msgid "Your Dojo has been successfully saved"
+msgstr "ITALIAN Your Dojo has been successfully saved"
+
+msgid "An error has occurred while saving"
+msgstr "ITALIAN An error has occurred while saving:"
+
+msgid "Suggested Notes:"
+msgstr "ITALIAN Suggested Notes:"
+
+msgid "Please bring:"
+msgstr "ITALIAN Please bring:"
+
+msgid "A pack lunch."
+msgstr "ITALIAN A pack lunch."
+
+msgid "A laptop. Borrow one from somebody if needs be."
+msgstr "ITALIAN A laptop. Borrow one from somebody if needs be."
+
+msgid "A parent! (Very important). If you are 12 or under, your parent must stay with you during the session."
+msgstr "ITALIAN A parent! (Very important). If you are 12 or under, your parent must stay with you during the session."
+
+msgid "Join Request Sent"
+msgstr "ITALIAN Join Request Sent!"
+
+msgid "Successfully Joined Dojo"
+msgstr "ITALIAN Successfully Joined Dojo!"
+
+msgid "Update Dojo"
+msgstr "ITALIAN Update Dojo"
+
+msgid "An error has occurred while loading Dojo"
+msgstr "ITALIAN An error has occurred while loading Dojo"
+
+msgid "Failed to load Dojo"
+msgstr "ITALIAN Failed to load Dojo"
+
+msgid "Unable to perform your request at this time - please try again later."
+msgstr "ITALIAN Unable to perform your request at this time - please try again later."
+
+msgid "Email address is not recognized."
+msgstr "ITALIAN Email address is not recognized."
+
+msgid "That password is incorrect"
+msgstr "ITALIAN That password is incorrect"
+
+msgid "An email with password reset instructions has been sent to you."
+msgstr "ITALIAN An email with password reset instructions has been sent to you."
+
+msgid "Thank you for registering. Your CoderDojo account has been successfully created. You can now register to become a Champion and create a Dojo."
+msgstr "ITALIAN Thank you for registering. Your CoderDojo account has been successfully created. You can now register to become a Champion and create a Dojo."
+
+msgid "user name already exists"
+msgstr "ITALIAN user name already exists"
+
+msgid "server error"
+msgstr "ITALIAN server error"
+
+msgid "There was a problem registering your account:"
+msgstr "ITALIAN There was a problem registering your account:"
+
+msgid "Invalid email or password"
+msgstr "ITALIAN Invalid email or password!"
+
+msgid "Previous"
+msgstr "ITALIAN Previous"
+
+msgid "An error has occurred while editing dojo"
+msgstr "ITALIAN An error has occurred while editing dojo:"
+
+msgid "An error has occurred while loading Dojos"
+msgstr "ITALIAN An error has occurred while loading Dojos"
+
+msgid "An error has occurred while updating Dojos"
+msgstr "ITALIAN An error has occurred while updating Dojos:"
+
+msgid "An error has occurred while deleting Dojos"
+msgstr "ITALIAN An error has occurred while deleting Dojos:"
+
+msgid "Error saving permission"
+msgstr "ITALIAN Error saving permission: "
+
+msgid "Error removing permission"
+msgstr "ITALIAN Error removing permission:"
+
+msgid "Error saving user type"
+msgstr "ITALIAN Error saving user type:"
+
+msgid "Invite Sent"
+msgstr "ITALIAN Invite Sent!"
+
+msgid "Error sending invite"
+msgstr "ITALIAN Error sending invite:"
+
+msgid "Error removing user"
+msgstr "ITALIAN Error removing user:"
+
+msgid "An error has occurred while deleting dojo"
+msgstr "ITALIAN An error has occurred while deleting dojo: "
+
+msgid "Thank you for submitting your dojo listing. A member from the CoderDojo Foundation team will review your listing and be in touch shortly."
+msgstr "ITALIAN Thank you for submitting your dojo listing. A member from the CoderDojo Foundation team will review your listing and be in touch shortly."
+
+msgid "Newspaper/Magazine"
+msgstr "ITALIAN Newspaper/Magazine"
+
+msgid "Radio"
+msgstr "ITALIAN Radio"
+
+msgid "Family/Friends"
+msgstr "ITALIAN Family/Friends"
+
+msgid "Error loading profile"
+msgstr "ITALIAN Error loading profile:"
+
+msgid "Error loading Dojos"
+msgstr "ITALIAN Error loading Dojos:"
+
+msgid "An error has occured while loading languages"
+msgstr "ITALIAN An error has occured while loading languages"
+
+msgid "Join Dojo"
+msgstr "ITALIAN Join Dojo"
+
+msgid "Leave"
+msgstr "ITALIAN Leave"
+
+msgid "Error leaving Dojo"
+msgstr "ITALIAN Error leaving Dojo"
+
+msgid "Are you sure you want to leave this Dojo?"
+msgstr "ITALIAN Are you sure you want to leave this Dojo?"
+
+msgid "Leave Dojo"
+msgstr "ITALIAN Leave Dojo"
+
+msgid "Join Dojo as..."
+msgstr "ITALIAN Join Dojo as..."
+
+msgid "Dojo Admin"
+msgstr "ITALIAN Dojo Admin"
+
+msgid "Forum Admin"
+msgstr "ITALIAN Forum Admin"
+
+msgid "Ticketing Admin"
+msgstr "ITALIAN Ticketing Admin"
+
+msgid "You do not have permission to delete this Dojo"
+msgstr "ITALIAN You do not have permission to delete this Dojo"
+
+msgid "Error loading user dojo entity"
+msgstr "ITALIAN Error loading user dojo entity"
+
+msgid "You do not have permission to update user types"
+msgstr "ITALIAN You do not have permission to update user types"
+
+msgid "You do not have permission to remove users"
+msgstr "ITALIAN You do not have permission to remove users"
+
+msgid "Parents/Guardians"
+msgstr "ITALIAN Parents/Guardians"
+
+msgid "Badges"
+msgstr "ITALIAN Badges"
+
+msgid "Children"
+msgstr "ITALIAN Children"
+
+msgid "Select a user type"
+msgstr "ITALIAN Select a user type"
+
+msgid "Programming Languages"
+msgstr "ITALIAN Programming Languages"
+
+msgid "Events for Dojo"
+msgstr "ITALIAN Events for Dojo"
+
+msgid "Event"
+msgstr "ITALIAN Event"
+
+msgid "Date"
+msgstr "ITALIAN Date"
+
+msgid "Type"
+msgstr "ITALIAN Type"
+
+msgid "For"
+msgstr "ITALIAN For"
+
+msgid "Name"
+msgstr "ITALIAN Name"
+
+msgid "Capacity"
+msgstr "ITALIAN Capacity"
+
+msgid "Applicants"
+msgstr "ITALIAN Applicants"
+
+msgid "Attending"
+msgstr "ITALIAN Attending"
+
+msgid "Create Event"
+msgstr "ITALIAN Create Event"
+
+msgid "Manage"
+msgstr "ITALIAN Manage"
+
+msgid "Attendance"
+msgstr "ITALIAN Attendance"
+
+msgid "Manage Dojo Events"
+msgstr "ITALIAN Manage Dojo Events"
+
+msgid "Are you sure you want to cancel this event?"
+msgstr "ITALIAN Are you sure you want to cancel this event?"
+
+msgid "Are you sure you want to delete this Dojo?"
+msgstr "ITALIAN Are you sure you want to delete this Dojo?"
+
+msgid "Apply for Event"
+msgstr "ITALIAN Apply for Event"
+
+msgid "Description"
+msgstr "ITALIAN Description"
+
+msgid "Thank You. Your application has been received. You will be notified by email if you are approved for this event."
+msgstr "ITALIAN Thank You. Your application has been received. You will be notified by email if you are approved for this event."
+
+msgid "Error applying for event"
+msgstr "ITALIAN Error applying for event"
+
+msgid "By using this website you agree to the use of cookies. You can read about our cookie policy <a href='http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm#section_2'>here</a>."
+msgstr "ITALIAN By using this website you agree to the use of cookies. You can read about our cookie policy <a href='http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm#section_2'>here</a>."
+
+msgid "Add the event name"
+msgstr "ITALIAN Add the event name"
+
+msgid "All"
+msgstr "ITALIAN All"
+
+msgid "Add a description"
+msgstr "ITALIAN Add a description"
+
+msgid "Age"
+msgstr "ITALIAN Age"
+
+msgid "One off"
+msgstr "ITALIAN One off"
+
+msgid "Every"
+msgstr "ITALIAN Every"
+
+msgid "From"
+msgstr "ITALIAN From"
+
+msgid "Close"
+msgstr "ITALIAN Close"
+
+msgid "is public"
+msgstr "ITALIAN is public"
+
+msgid "Event Name"
+msgstr "ITALIAN Event Name"
+
+msgid "To"
+msgstr "ITALIAN To"
+
+msgid "City"
+msgstr "ITALIAN City"
+
+msgid "Add a city name"
+msgstr "ITALIAN Add a city name"
+
+msgid "Add the address to the event"
+msgstr "ITALIAN Add the address to the event"
+
+msgid "Add the maximum amount of participants"
+msgstr "ITALIAN Add the maximum amount of participants"
+
+msgid "Invites"
+msgstr "ITALIAN Invites"
+
+msgid "Invite dojo users"
+msgstr "ITALIAN Invite dojo users"
+
+msgid "Save"
+msgstr "ITALIAN Save"
+
+msgid "Save Draft"
+msgstr "ITALIAN Save Draft"
+
+msgid "Publish"
+msgstr "ITALIAN Publish"
+
+msgid "Approve"
+msgstr "ITALIAN Approve"
+
+msgid "Error updating applications"
+msgstr "ITALIAN Error updating applications"
+
+msgid "Sunday"
+msgstr "ITALIAN Sunday"
+
+msgid "Monday"
+msgstr "ITALIAN Monday"
+
+msgid "Tuesday"
+msgstr "ITALIAN Tuesday"
+
+msgid "Wednesday"
+msgstr "ITALIAN Wednesday"
+
+msgid "Thursday"
+msgstr "ITALIAN Thursday"
+
+msgid "Friday"
+msgstr "ITALIAN Friday"
+
+msgid "Saturday"
+msgstr "ITALIAN Saturday"
+
+msgid "Applications successfully updated"
+msgstr "ITALIAN Applications successfully updated"
+
+msgid "No applications have been changed."
+msgstr "ITALIAN No applications have been changed."
+
+msgid "Invite Parent"
+msgstr "ITALIAN Invite Parent"
+
+msgid "Are you sure you want to delete this application?"
+msgstr "ITALIAN Are you sure you want to delete this application?"
+
+msgid "Select a Dojo member..."
+msgstr "ITALIAN Select a Dojo member..."
+
+msgid "Please click the Join Dojo button before applying for events."
+msgstr "ITALIAN Please click the Join Dojo button before applying for events."
+
+msgid "Hide Notes"
+msgstr "ITALIAN Hide Notes"
+
+msgid "Hide Projects"
+msgstr "ITALIAN Hide Projects"
+
+msgid "Gender"
+msgstr "ITALIAN Gender"
+
+msgid "Female"
+msgstr "ITALIAN Female"
+
+msgid "Private Profile"
+msgstr "ITALIAN Private Profile"
+
+msgid "None"
+msgstr "ITALIAN None"
+
+msgid "Parent's/Guardian's email"
+msgstr "ITALIAN Parent's/Guardian's email"
+
+msgid "Invite"
+msgstr "ITALIAN Invite"
+
+msgid "Address is required"
+msgstr "ITALIAN Address is required"
+
+msgid "Phone"
+msgstr "ITALIAN Phone"
+
+msgid "Dojo Staff"
+msgstr "ITALIAN Dojo Staff"
+
+msgid "< 13"
+msgstr "ITALIAN < 13"
+
+msgid "> 13"
+msgstr "ITALIAN > 13"
+
+msgid "Error updating application"
+msgstr "ITALIAN Error updating application"
+
+msgid "Error saving new applicant"
+msgstr "ITALIAN Error saving new applicant"
+
+msgid "Error removing applicant"
+msgstr "ITALIAN Error removing applicant"
+
+msgid "Children Attending"
+msgstr "ITALIAN Children Attending"
+
+msgid "Dates"
+msgstr "ITALIAN Dates"
+
+msgid "Day"
+msgstr "ITALIAN Day"
+
+msgid "to"
+msgstr "ITALIAN to"
+
+msgid "Everyone"
+msgstr "ITALIAN Everyone"
+
+msgid "attendee-u13"
+msgstr "ITALIAN Youths under 13"
+
+msgid "attendee-o13"
+msgstr "ITALIAN Youths over 13"
+
+msgid "parent-guardian"
+msgstr "ITALIAN Parents/Guardians"
+
+msgid "mentor"
+msgstr "ITALIAN Mentors/Volunteers"
+
+msgid "champion"
+msgstr "ITALIAN Champions"
+
+msgid "all-user-types"
+msgstr "ITALIAN Everyone"
+
+msgid "Youth Under 13"
+msgstr "ITALIAN Youth Under 13"
+
+msgid "Youth Over 13"
+msgstr "ITALIAN Youth Over 13"
+
+msgid "Parent/Guardian"
+msgstr "ITALIAN Parent/Guardian"
+
+msgid "Mentor/Volunteer"
+msgstr "ITALIAN Mentor/Volunteer"
+
+msgid "Champion"
+msgstr "ITALIAN Champion"
+
+msgid "recurring"
+msgstr "ITALIAN Recurring"
+
+msgid "one-off"
+msgstr "ITALIAN One off"
+
+msgid "Select event date..."
+msgstr "ITALIAN Select event date..."
+
+msgid "Password must be a minimum of 8 characters in length and contain at least one number or punctuation character"
+msgstr "ITALIAN Password must be a minimum of 8 characters in length and contain at least one number or punctuation character"
+
+msgid "Password must not be the same as your email address"
+msgstr "ITALIAN Password must not be the same as your email address"
+
+msgid "Add a user type"
+msgstr "ITALIAN Add a user type"
+
+msgid "Background Checked"
+msgstr "ITALIAN Background Checked"
+
+msgid "Upload new picture"
+msgstr "ITALIAN Upload new picture"
+
+msgid "Intro"
+msgstr "ITALIAN Intro"
+
+msgid "Badges Welcome Text"
+msgstr "ITALIAN Welcome to the CoderDojo Badges dashboard."
+
+msgid "Short Description"
+msgstr "ITALIAN Short Description"
+
+msgid "Award Badge"
+msgstr "ITALIAN Award Badge"
+
+msgid "Remove"
+msgstr "ITALIAN Remove"
+
+msgid "Award a badge..."
+msgstr "ITALIAN Award a badge..."
+
+msgid "Select a user type to invite..."
+msgstr "ITALIAN Select a user type to invite..."
+
+msgid "Are you sure you want to award this badge to"
+msgstr "ITALIAN Are you sure you want to award this badge to"
+
+msgid "Badge Application Sent!"
+msgstr "ITALIAN Badge Application Sent!"
+
+msgid "Badge Accepted! It is now visible on your profile page."
+msgstr "ITALIAN Badge Accepted! It is now visible on your profile page."
+
+msgid "Badge not found."
+msgstr "ITALIAN Badge not found."
+
+msgid "This badge has already been accepted."
+msgstr "ITALIAN This badge has already been accepted."
+
+msgid "Only the nominated user can accept this badge."
+msgstr "ITALIAN Only the nominated user can accept this badge."
+
+msgid "Date Awarded"
+msgstr "ITALIAN Date Awarded"
+
+msgid "You can't request a badge application for your own user account."
+msgstr "ITALIAN You can't request a badge application for your own user account."
+
+msgid "Please enter a Badge Claim Number."
+msgstr "ITALIAN Please enter a Badge Claim Number."
+
+msgid "Invalid Badge Claim Number."
+msgstr "ITALIAN Invalid Badge Claim Number."
+
+msgid "You have successfully claimed a badge. It is now visible on your profile page."
+msgstr "ITALIAN You have successfully claimed a badge. It is now visible on your profile page."
+
+msgid "Enter Badge Claim Number"
+msgstr "ITALIAN Enter Badge Claim Number"
+
+msgid "Go"
+msgstr "ITALIAN Go"
+
+msgid "Claim Now"
+msgstr "ITALIAN Claim Now"
+
+msgid "Champion and Dojo Admin permissions cannot be removed from a Dojo owner."
+msgstr "ITALIAN Champion and Dojo Admin permissions cannot be removed from a Dojo owner."
+
+msgid "Dojo owners cannot be removed."
+msgstr "ITALIAN Dojo owners cannot be removed."
+
+msgid "Successfully updated password."
+msgstr "ITALIAN Successfully updated password."
+
+msgid "Failed to update password."
+msgstr "ITALIAN Failed to update password."
+
+msgid "Reset not found."
+msgstr "ITALIAN Reset not found."
+
+msgid "Reset not active."
+msgstr "ITALIAN Reset not active."
+
+msgid "Reset stale."
+msgstr "ITALIAN Reset stale."
+
+msgid "Error"
+msgstr "ITALIAN Error"
+
+msgid "Edit Profile"
+msgstr "ITALIAN Edit Profile"
+
+msgid "Export Badges"
+msgstr "ITALIAN Export Badges"
+
+msgid "Error loading Events"
+msgstr "ITALIAN Error loading Events:"
+
+msgid "Undisclosed"
+msgstr "ITALIAN Undisclosed"
+
+msgid "Add Ninja under 13"
+msgstr "ITALIAN Add Ninja under 13"
+
+msgid "Add Ninja over 13"
+msgstr "ITALIAN Add Ninja over 13"
+
+msgid "This profile is private"
+msgstr "ITALIAN This profile is private"
+
+msgid "We need mentors!"
+msgstr "ITALIAN We need mentors!"
+
+msgid "Profile has been saved successfully"
+msgstr "ITALIAN Profile has been saved successfully"
+
+msgid "An error has occurred while saving profile"
+msgstr "ITALIAN An error has occurred while saving profile"
+
+msgid "Ninja"
+msgstr "ITALIAN Ninja"
+
+msgid "Ninjas"
+msgstr "ITALIAN Ninjas"
+
+msgid "Weekly"
+msgstr "ITALIAN Weekly"
+
+msgid "Every two weeks"
+msgstr "ITALIAN Every two weeks"
+
+msgid "An error has occured verifying your profile."
+msgstr "ITALIAN An error has occured verifying your profile."
+
+msgid "Please complete your profile before continuing."
+msgstr "ITALIAN Please complete your profile before continuing."
+
+msgid "An error has occured verifying the charter agreement."
+msgstr "ITALIAN An error has occured verifying the charter agreement."
+
+msgid "error.general"
+msgstr "ITALIAN There was an error on this page. Our technical staff have been notified"
+
+msgid "Gather your Team"
+msgstr "ITALIAN Gather your Team"
+
+msgid "Find a Venue"
+msgstr "ITALIAN Find a Venue"
+
+msgid "Plan your Dojo"
+msgstr "ITALIAN Plan your Dojo"
+
+msgid "Promote your Dojo"
+msgstr "ITALIAN Promote your Dojo"
+
+msgid "Find technical mentors in your community to volunteer at your Dojo."
+msgstr "ITALIAN Find technical mentors in your community to volunteer at your Dojo."
+
+msgid "This is required for you to create a Dojo listing!"
+msgstr "ITALIAN This is required for you to create a Dojo listing!"
+
+msgid "We recommend a ratio of 1:8 mentors to youths, e.g. for an average Dojo of 24 youth, 3 technical mentors would be suggested. Recruit as many mentors as not all volunteers will be able to make all sessions. If you are having difficulty finding mentors get in touch with local businesses, universities and parent groups."
+msgstr "ITALIAN We recommend a ratio of 1:8 mentors to youths, e.g. for an average Dojo of 24 youth, 3 technical mentors would be suggested. Recruit as many mentors as not all volunteers will be able to make all sessions. If you are having difficulty finding mentors get in touch with local businesses, universities and parent groups."
+
+msgid "Find non-technical mentors. E.g. parents etc."
+msgstr "ITALIAN Find non-technical mentors. E.g. parents etc."
+
+msgid "Background check"
+msgstr "ITALIAN Background check"
+
+msgid "Locate a suitable free venue in your community."
+msgstr "ITALIAN Locate a suitable free venue in your community."
+
+msgid "Ensure your venue is aware of local health and safety best practices."
+msgstr "ITALIAN Ensure your venue is aware of local health and safety best practices."
+
+msgid "Please add a comment on how you’ve met local health and safety best practices in your region"
+msgstr "ITALIAN Please add a comment on how you’ve met local health and safety best practices in your region"
+
+msgid "The main points to be aware of in a Dojo setting is extension cables! Make sure these are strapped to the floor and don’t cover pathways."
+msgstr "ITALIAN The main points to be aware of in a Dojo setting is extension cables! Make sure these are strapped to the floor and don’t cover pathways."
+
+msgid "Ensure appropriate public liability insurance for your venue."
+msgstr "ITALIAN Ensure appropriate public liability insurance for your venue."
+
+msgid "Set launch date and regular time for your Dojo"
+msgstr "ITALIAN Set launch date and regular time for your Dojo"
+
+msgid "Create a plan for what content you would like to cover with your mentors."
+msgstr "ITALIAN Create a plan for what content you would like to cover with your mentors."
+
+msgid "See <a href='http://kata.coderdojo.com/wiki/Learning_Resource' target='_blank'>Kata</a>, the CoderDojo community wiki for more information on learning resources"
+msgstr "ITALIAN See <a href='http://kata.coderdojo.com/wiki/Learning_Resource' target='_blank'>Kata</a>, the CoderDojo community wiki for more information on learning resources"
+
+msgid "Many Dojos start with Scratch or dive straight into HTML. See Kata, the CoderDojo community wiki for <a href="http://kata.coderdojo.com/wiki/Learning_Resource">more information on learning resources.</a>"
+msgstr "ITALIAN Many Dojos start with Scratch or dive straight into HTML. See Kata, the CoderDojo community wiki for <a href="http://kata.coderdojo.com/wiki/Learning_Resource">more information on learning resources.</a>"
+
+msgid "Setup ticketing and registration for your Dojo"
+msgstr "ITALIAN Setup ticketing and registration for your Dojo"
+
+msgid "Ticketing can be done right here in the community platform!"
+msgstr "ITALIAN Ticketing can be done right here in the community platform!"
+
+msgid "Set up an email address specifically for your Dojo"
+msgstr "ITALIAN Set up an email address specifically for your Dojo"
+
+msgid "This is important as it will allow multiple people to assist in overseeing the email account.  You can set up a gmail or standard free to use email address for your Dojo (for example docklandsdojo@gmail.com or we can issue you a coderdojo.com email when you are creating a listing on the next stage e.g. docklands.ie@coderdojo.com)."
+msgstr "ITALIAN This is important as it will allow multiple people to assist in overseeing the email account.  You can set up a gmail or standard free to use email address for your Dojo (for example docklandsdojo@gmail.com or we can issue you a coderdojo.com email when you are creating a listing on the next stage e.g. docklands.ie@coderdojo.com)."
+
+msgid "Set up social media presence for your Dojo. e.g. Facebook, Twitter"
+msgstr "ITALIAN Set up social media presence for your Dojo. e.g. Facebook, Twitter"
+
+msgid "Learn how to connect with other Dojos on social media and the <a href=\"https://forums.coderdojo.com\">CoderDojo discussion forums</a>"
+msgstr "ITALIAN Learn how to connect with other Dojos on social media and the <a href=\"https://forums.coderdojo.com\">CoderDojo discussion forums</a>"
+
+msgid "You must find technical mentors before continuing."
+msgstr "ITALIAN You must find technical mentors before continuing."
+
+msgid "You must locate a suitable venue before continuing."
+msgstr "ITALIAN You must locate a suitable venue before continuing."
+
+msgid "You must set a Date and time for your Dojo to take place."
+msgstr "ITALIAN You must set a Date and time for your Dojo to take place."
+
+msgid "You must set an email address for your Dojo."
+msgstr "ITALIAN You must set an email address for your Dojo."
+
+msgid "Please describe how you have background checked your team."
+msgstr "ITALIAN Please describe how you have background checked your team."
+
+msgid "Set up background checking for all volunteers."
+msgstr "ITALIAN Set up background checking for all volunteers."
+
+msgid "The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on Kata <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
+msgstr "ITALIAN The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on Kata <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
+
+msgid "A suitable venue has tables, chairs, heat and ideally, wifi! Canteens, community centers, libraries, schools and corporate offices all make great venues. Venues should not replicate a teacher led classroom environment, instead rearrange the desks and chairs, put youths together and ensure there is space for mentors to walk around and assist the young people. Dojos should only be hosted in public spaces, you cannot host your Dojo in a private residence!"
+msgstr "ITALIAN A suitable venue has tables, chairs, heat and ideally, wifi! Canteens, community centers, libraries, schools and corporate offices all make great venues. Venues should not replicate a teacher led classroom environment, instead rearrange the desks and chairs, put youths together and ensure there is space for mentors to walk around and assist the young people. Dojos should only be hosted in public spaces, you cannot host your Dojo in a private residence!"
+
+msgid "Please describe how you have ensured health and safety best practices."
+msgstr "ITALIAN Please describe how you have ensured health and safety best practices."
+
+msgid "Please add a comment to let us know the situation with public liability in your Dojo."
+msgstr "ITALIAN Please add a comment to let us know the situation with public liability in your Dojo."
+
+msgid "If your Dojo takes place in a corporate office, school or library it is likely that the existing public liability insurance covers the Dojo. Make sure you check this with the venue host in advance of your first session. If it doesn’t, ask the venue to sponsor the cost of adding it to their policy."
+msgstr "ITALIAN If your Dojo takes place in a corporate office, school or library it is likely that the existing public liability insurance covers the Dojo. Make sure you check this with the venue host in advance of your first session. If it doesn’t, ask the venue to sponsor the cost of adding it to their policy."
+
+msgid "If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, bi-weekly or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
+msgstr "ITALIAN If you build it they will come! Pick a date for your first Dojo session and start working towards it. Dojos can run weekly, bi-weekly or monthly. They can be run on weekdays or weekends it all depends on what suits your community."
+
+msgid "Embodying the Ethos"
+msgstr "ITALIAN Embodying the Ethos"
+
+msgid "We will work to embody the CoderDojo ethos"
+msgstr "ITALIAN We will work to embody the CoderDojo ethos"
+
+msgid "All mentors and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+msgstr "ITALIAN All mentors and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+
+msgid "Optionally describe how this was achieved."
+msgstr "ITALIAN Optionally describe how this was achieved."
+
+msgid "Data Protection: Our Dojo only uses data provided for the intended purpose. abides by data protection regulations in our jurisdiction."
+msgstr "ITALIAN Data Protection: Our Dojo only uses data provided for the intended purpose. abides by data protection regulations in our jurisdiction."
+
+msgid "Optionally describe how this was achieved."
+msgstr "ITALIAN Optionally describe how this was achieved."
+
+msgid "Diversity among our attendees is respected"
+msgstr "ITALIAN Diversity among our attendees is respected"
+
+msgid "Optionally describe how this was achieved."
+msgstr "ITALIAN Optionally describe how this was achieved."
+
+msgid "We will work to help engage with and improve the greater CoderDojo movement by"
+msgstr "ITALIAN We will work to help engage with and improve the greater CoderDojo movement by"
+
+msgid "Communicating with the CoderDojo Foundation"
+msgstr "ITALIAN Communicating with the CoderDojo Foundation"
+
+msgid "Contributing to Kata, the community knowledge base at kata.coderdojo.com"
+msgstr "ITALIAN Contributing to Kata, the community knowledge base at kata.coderdojo.com"
+
+msgid "Connecting with local and international Dojos to share insights and supports"
+msgstr "ITALIAN Connecting with local and international Dojos to share insights and supports"
+
+msgid "Optionally describe how this was achieved."
+msgstr "ITALIAN Optionally describe how this was achieved."
+
+msgid "Admin permissions cannot be removed from a Dojo owner."
+msgstr "ITALIAN Admin permissions cannot be removed from a Dojo owner."
+
+msgid "User permissions successfully updated."
+msgstr "ITALIAN User permissions successfully updated."
+
+msgid "User types successfully updated."
+msgstr "ITALIAN User types successfully updated."
+
+msgid "User successfully removed from Dojo."
+msgstr "ITALIAN User successfully removed from Dojo."
+
+msgid "Ninja Over 13"
+msgstr "ITALIAN Ninja Over 13"
+
+msgid "Ninja Under 13"
+msgstr "ITALIAN Ninja Under 13"
+
+msgid "Please add your location manually by clicking on the map."
+msgstr "ITALIAN Please add your location manually by clicking on the map."
+
+msgid "You do not have permission to update this Dojo."
+msgstr "ITALIAN You do not have permission to update this Dojo."
+
+msgid "Page not found"
+msgstr "ITALIAN PAGE NOT FOUND!"
+
+msgid "Founder"
+msgstr "ITALIAN Founder"
+
+msgid "Error setting up event"
+msgstr "ITALIAN Error setting up event"
+
+msgid "Event Date"
+msgstr "ITALIAN Event Date"
+
+msgid "Waitlist"
+msgstr "ITALIAN Waitlist"
+
+msgid "New Applicant"
+msgstr "ITALIAN New Applicant"
+
+msgid "Invite Ninja over 13"
+msgstr "ITALIAN Invite Ninja over 13"
+
+msgid "Enter Ninja Email Address"
+msgstr "ITALIAN Enter Ninja Email Address"
+
+msgid "Error inviting Ninja"
+msgstr "ITALIAN Error inviting Ninja"
+
+msgid "Successfully approved invite Ninja request."
+msgstr "ITALIAN Successfully approved invite Ninja request."
+
+msgid "Error approving invite Ninja request."
+msgstr "ITALIAN Error approving invite Ninja request."
+
+msgid "Approve Invite Ninja Request"
+msgstr "ITALIAN Approve Invite Ninja Request"
+
+msgid "Check In"
+msgstr "ITALIAN Check In"
+
+msgid "This Dojo currently has no active events"
+msgstr "ITALIAN This Dojo currently has no active events"
+
+msgid "'Cannot find founder of dojo'"
+msgstr "ITALIAN 'Cannot find founder of dojo'"
+
+msgid "dojo.setup.confirmation"
+msgstr "ITALIAN Are you sure you have filled out all the information correctly and wish to proceed?"
+
+msgid "Confirmation"
+msgstr "ITALIAN Confirmation"
+
+msgid "An error has occurred while saving dojo lead"
+msgstr "ITALIAN An error has occurred while saving dojo lead"
+
+msgid "Unable to retrieve user details"
+msgstr "ITALIAN Unable to retrieve user details"
+
+msgid "has been successfully checked in"
+msgstr "ITALIAN has been successfully checked in"
+
+msgid "Email address not found"
+msgstr "ITALIAN Email address not found."
+
+msgid "has been successfully approved"
+msgstr "ITALIAN has been successfully approved"
+
+msgid "captcha error"
+msgstr "ITALIAN captcha error"
+
+msgid "Enter Email"
+msgstr "ITALIAN Enter Email"
+
+msgid "Are you sure you want to remove this user from your Dojo?"
+msgstr "ITALIAN Are you sure you want to remove this user from your Dojo?"
+
+msgid "Error loading events"
+msgstr "ITALIAN Error loading events"
+
+msgid "Error loading applications"
+msgstr "ITALIAN Error loading applications"
+
+msgid "Has access to Technical Mentors:"
+msgstr "ITALIAN Has access to Technical Mentors:"
+
+msgid "Has access to a Venue:"
+msgstr "ITALIAN Has access to a Venue:"
+
+msgid "General Enquiries:"
+msgstr "ITALIAN General Enquiries:"
+
+msgid "Partner Enquiries:"
+msgstr "ITALIAN Partner Enquiries:"
+
+msgid "About"
+msgstr "ITALIAN About"
+
+msgid "Supported by the CoderDojo Foundation, CHY  20812. For more information about the CoderDojo Foundation, click"
+msgstr "ITALIAN Supported by the CoderDojo Foundation, CHY  20812. For more information about the CoderDojo Foundation, click"
+
+msgid "here"
+msgstr "ITALIAN here"
+
+msgid "Accepting badge..."
+msgstr "ITALIAN Accepting badge..."
+
+msgid "Manage Attendance for:"
+msgstr "ITALIAN Manage Attendance for:"
+
+msgid "Date of birth is empty"
+msgstr "ITALIAN Date of birth is empty"
+
+msgid "Search by user email"
+msgstr "ITALIAN Search by user email"
+
+msgid "List"
+msgstr "ITALIAN List"
+
+msgid "Select state..."
+msgstr "ITALIAN Select state..."
+
+msgid "Select stage..."
+msgstr "ITALIAN Select stage..."
+
+msgid "Search by dojo name"
+msgstr "ITALIAN Search by dojo name"
+
+msgid "Search by dojo email"
+msgstr "ITALIAN Search by dojo email"
+
+msgid "Go!"
+msgstr "ITALIAN Go!"
+
+msgid "Alias"
+msgstr "ITALIAN Alias"
+
+msgid "An error has occured while accepting invitation"
+msgstr "ITALIAN An error has occured while accepting invitation"
+
+msgid "Please resolve the captcha"
+msgstr "ITALIAN Please resolve the captcha"
+
+
+msgid "Please click here to complete all of the recommended practices for"
+msgstr "ITALIAN Please click here to complete all of the recommended practices for"
+
+msgid "Your first Dojo application is awaiting verification. You can create a second Dojo after it has been verified."
+msgstr "ITALIAN Your first Dojo application is awaiting verification. You can create a second Dojo after it has been verified."
+
+msgid "If you need help completing your initial Dojo application, please contact us at"
+msgstr "ITALIAN If you need help completing your initial Dojo application, please contact us at"
+
+msgid "There was an error uploading your profile picture."
+msgstr "ITALIAN There was an error uploading your profile picture."
+
+msgid "Invitation was sent successfully."
+msgstr "ITALIAN Invitation was sent successfully."
+
+msgid "An error has occurred while sending invitation"
+msgstr "ITALIAN An error has occurred while sending invitation"
+
+msgid "We will work to embody the CoderDojo ethos"
+msgstr "ITALIAN We will work to embody the CoderDojo ethos"
+
+msgid "All mentors and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+msgstr "ITALIAN All mentors and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+
+msgid "Optionally describe how this was achieved."
+msgstr "ITALIAN Optionally describe how this was achieved."
+
+msgid "Our Dojo abides by data protection regulations in our jurisdiction"
+msgstr "ITALIAN Our Dojo abides by data protection regulations in our jurisdiction"
+
+msgid "Inclusion is a fundamental principle of CoderDojo, <a href="http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies#Inclusion_Statement">read our short inclusion statement and confirm you and your mentors are in agreement.</a>"
+msgstr "ITALIAN Inclusion is a fundamental principle of CoderDojo, <a href="http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies#Inclusion_Statement">read our short inclusion statement and confirm you and your mentors are in agreement.</a>"
+
+msgid "Our Dojo will work to engage with and improve the greater CoderDojo movement by:"
+msgstr "ITALIAN Our Dojo will work to engage with and improve the greater CoderDojo movement by:"
+
+msgid "Communicating with the CoderDojo Foundation"
+msgstr "ITALIAN Communicating with the CoderDojo Foundation"
+
+msgid "Contributing to Kata, the community knowledge base at kata.coderdojo.com"
+msgstr "ITALIAN Contributing to Kata, the community knowledge base at kata.coderdojo.com"
+
+msgid "Connecting with local and international Dojos to share insights and supports"
+msgstr "ITALIAN Connecting with local and international Dojos to share insights and supports"
+
+msgid "This dojo has no coordinates."
+msgstr "ITALIAN This dojo has no coordinates."
+
+msgid "Register Champion"
+msgstr "ITALIAN Register Champion"
+
+msgid "Invitation to become a Parent/Guardian"
+msgstr "ITALIAN Invitation to become a Parent/Guardian"
+
+msgid "CoderDojo Password Reset"
+msgstr "ITALIAN CoderDojo Password Reset"
+
+msgid "Approve Parent Request"
+msgstr "ITALIAN Approve Parent Request"
+
+msgid "Welcome to CoderDojo!"
+msgstr "ITALIAN Welcome to CoderDojo!"
+
+msgid "New Dojo Invitation"
+msgstr "ITALIAN New Dojo Invitation"
+
+msgid "New Request to join your Dojo"
+msgstr "ITALIAN New Request to join your Dojo"
+
+msgid "A user has left your Dojo"
+msgstr "ITALIAN A user has left your Dojo"
+
+msgid "Event application approved"
+msgstr "ITALIAN Event application approved"
+
+msgid "Event application received"
+msgstr "ITALIAN Event application received"
+
+msgid "CoderDojo Badge Nomination"
+msgstr "ITALIAN CoderDojo Badge Nomination"
+
+msgid "New Mentor Request to join your Dojo"
+msgstr "ITALIAN New Mentor Request to join your Dojo"
+
+msgid "We created a new Google Email for your Dojo"
+msgstr "ITALIAN We created a new Google Email for your Dojo"
+
+msgid "Please click on the map to pinpoint your location"
+msgstr "ITALIAN Please click on the map to pinpoint your location"
+
+msgid "Welcome New CoderDojo Champion!"
+msgstr "ITALIAN Welcome New CoderDojo Champion!"
+
+msgid "The first step towards setting up a Dojo in your area is filling out the form below and giving us a little more information about yourself."
+msgstr "ITALIAN The first step towards setting up a Dojo in your area is filling out the form below and giving us a little more information about yourself."
+
+msgid "The purpose of us gathering this information is so we can tailor support to you as your start your Dojo journey!"
+msgstr "ITALIAN The purpose of us gathering this information is so we can tailor support to you as your start your Dojo journey!"
+
+msgid "If you wish to learn more about the process of starting a CoderDojo in your area before completing this form please see Kata, the CoderDojo Community Knowledge Base."
+msgstr "ITALIAN If you wish to learn more about the process of starting a CoderDojo in your area before completing this form please see Kata, the CoderDojo Community Knowledge Base."
+
+msgid "See Kata here:"
+msgstr "ITALIAN See Kata here:"
+
+msgid "You can also at any point contact info@coderdojo.com for support."
+msgstr "ITALIAN You can also at any point contact info@coderdojo.com for support."
+
+msgid "This is not required but will help you significantly with the running of your Dojo! We recommend encouraging parents to get involved in the running of your Dojo.  This could include managing social media accounts, overseeing ticketing for the Dojo, recruiting mentors, local outreach etc."
+msgstr "ITALIAN This is not required but will help you significantly with the running of your Dojo! We recommend encouraging parents to get involved in the running of your Dojo.  This could include managing social media accounts, overseeing ticketing for the Dojo, recruiting mentors, local outreach etc."
+
+msgid "This is specific to the legislation in your jurisdiction. Please comment below giving us more information or contact a CoderDojo Foundation staff member at <a href='mailto:info@coderdojo.com'>info@coderdojo.com</a>"
+msgstr "ITALIAN This is specific to the legislation in your jurisdiction. Please comment below giving us more information or contact a CoderDojo Foundation staff member at <a href='mailto:info@coderdojo.com'>info@coderdojo.com</a>"
+
+msgid "This is a part of CoderDojo Tao and CoderDojo recommended practice! To find out more about CoderDojo Tao and best practices for CoderDojo please see"
+msgstr "ITALIAN This is a part of CoderDojo Tao and CoderDojo recommended practice! To find out more about CoderDojo Tao and best practices for CoderDojo please see"
+
+msgid "This is a part of CoderDojo Tao and CoderDojo recommended practice! To find out more about CoderDojo Tao and best practices for CoderDojo please click icon below"
+msgstr "ITALIAN This is a part of CoderDojo Tao and CoderDojo recommended practice! To find out more about CoderDojo Tao and best practices for CoderDojo please click icon below"
+
+msgid "This is not required but will help you significantly with the running of your Dojo and will help in connecting you to the global CoderDojo community!"
+msgstr "ITALIAN This is not required but will help you significantly with the running of your Dojo and will help in connecting you to the global CoderDojo community!"
+
+msgid "Please read CoderDojo ECHO, our guide to the Ethos, Culture, Happiness and Outcomes of CoderDojo <a href='http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies' target='_blank'>here</a>"
+msgstr "ITALIAN Please read CoderDojo ECHO, our guide to the Ethos, Culture, Happiness and Outcomes of CoderDojo <a href='http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies' target='_blank'>here</a>"
+
+msgid "Online Safety: Ensure all mentors have read the Online Safety 101 document. and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+msgstr "ITALIAN Online Safety: Ensure all mentors have read the Online Safety 101 document. and young people are aware of online safety best practices and we only allow age appropriate content at our Dojo"
+
+msgid "Please see Online Safety 101 for Mentors <a href='https://docs.google.com/document/d/1DDwpYKBltkJXH15pr_p2Ig0_9l4Uq2TdE7zG_9QsdjI/edit?usp=sharing' target='_blank'>here</a> and Online Safety 101 for Ninjas <a href='https://docs.google.com/document/d/1BIhYjhOiTxeFdbBRVouBZQRWLQD_v-gCkCIYtDcP2CM/edit?usp=sharing' target='_blank'>here</a>"
+msgstr "ITALIAN Please see Online Safety 101 for Mentors <a href='https://docs.google.com/document/d/1DDwpYKBltkJXH15pr_p2Ig0_9l4Uq2TdE7zG_9QsdjI/edit?usp=sharing' target='_blank'>here</a> and Online Safety 101 for Ninjas <a href='https://docs.google.com/document/d/1BIhYjhOiTxeFdbBRVouBZQRWLQD_v-gCkCIYtDcP2CM/edit?usp=sharing' target='_blank'>here</a>"
+
+msgid "Data protection is increasingly becoming an important topic, <a href="http://kata.coderdojo.com/wiki/Data_Protection_101">here are some simple tips to make sure you stay informed</a>."
+msgstr "ITALIAN Data protection is increasingly becoming an important topic, <a href="http://kata.coderdojo.com/wiki/Data_Protection_101">here are some simple tips to make sure you stay informed</a>."
+
+msgid "You can see more information on Data Protection <a href='https://docs.google.com/document/d/18XQNYEMQrBDJoR0Gt1ryC6CzxDEd_k41p4PEeKYtIxE/edit?usp=sharing' target='_blank'>here</a>"
+msgstr "ITALIAN You can see more information on Data Protection <a href='https://docs.google.com/document/d/18XQNYEMQrBDJoR0Gt1ryC6CzxDEd_k41p4PEeKYtIxE/edit?usp=sharing' target='_blank'>here</a>"
+
+msgid "You can see more information on our inclusion policy <a href='http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies#Inclusion_Policy' target='_blank'>here</a>"
+msgstr "ITALIAN You can see more information on our inclusion policy <a href='http://kata.coderdojo.com/wiki/Guiding_Principles_and_Philosophies#Inclusion_Policy' target='_blank'>here</a>"
+
+msgid "See more information on the supports available to you <a href='https://coderdojo.com/organise-a-dojo/community-support/' target='_blank'>here</a>"
+msgstr "ITALIAN See more information on the supports available to you <a href='https://coderdojo.com/organise-a-dojo/community-support/' target='_blank'>here</a>"
+
+msgid "Please feel free to add comments or more information here"
+msgstr "ITALIAN Please feel free to add comments or more information here"
+
+msgid "Please sign the charter before continuing"
+msgstr "ITALIAN Please sign the charter before continuing"
+
+msgid "First"
+msgstr "ITALIAN First"
+
+msgid "Last"
+msgstr "ITALIAN Last"
+
+msgid "Today"
+msgstr "ITALIAN Today"
+
+msgid "Clear"
+msgstr "ITALIAN Clear"
+
+msgid "Done"
+msgstr "ITALIAN Done"
+
+msgid "Event name is empty"
+msgstr "ITALIAN Event name is empty"
+
+msgid "Description is empty"
+msgstr "ITALIAN Description is empty"
+
+msgid "Recurrence is empty"
+msgstr "ITALIAN Recurrence is empty"
+
+msgid "Capacity is empty"
+msgstr "ITALIAN Capacity is empty"
+
+msgid "None of your Dojo's have any Events planned currently"
+msgstr "ITALIAN None of your Dojo's have any Events planned currently"
+
+msgid "If you wish please provide a link to your LinkedIn page."
+msgstr "ITALIAN If you wish please provide a link to your LinkedIn page."
+
+msgid "If you wish please provide a link to your Twitter page."
+msgstr "ITALIAN If you wish please provide a link to your Twitter page."
+
+msgid "Past events cannot be created"
+msgstr "ITALIAN Past events cannot be created"
+
+msgid "Event Invitation"
+msgstr "ITALIAN Event Invitation"
+
+msgid "e.g. @CoderDojo"
+msgstr "ITALIAN e.g. @CoderDojo"
+
+msgid "User is already a parent of this Ninja"
+msgstr "ITALIAN User is already a parent of this Ninja"
+
+msgid "You must be a parent to invite a Ninja"
+msgstr "ITALIAN You must be a parent to invite a Ninja"
+
+msgid "Invalid invite request. Ninja email does not exist."
+msgstr "ITALIAN Invalid invite request. Ninja email does not exist."
+
+msgid "Ninja must be an over 13 attendee"
+msgstr "ITALIAN Ninja must be an over 13 attendee"
+
+msgid "User has already received this badge."
+msgstr "ITALIAN User has already received this badge."
+
+msgid "Invalid request. No badge received."
+msgstr "ITALIAN Invalid request. No badge received."
+
+msgid "Parent profile does not exist."
+msgstr "ITALIAN Parent profile does not exist."
+
+msgid "You have a Dojo application awaiting verification. You can create another Dojo after it has been verified."
+msgstr "ITALIAN You have a Dojo application awaiting verification. You can create another Dojo after it has been verified."
+
+msgid "No Dojos match your search query."
+msgstr "ITALIAN No Dojos match your search query."
+
+msgid "Please let us know how you heard about CoderDojo"
+msgstr "ITALIAN Please let us know how you heard about CoderDojo"
+
+msgid "Please specify how you heard about CoderDojo"
+msgstr "ITALIAN Please specify how you heard about CoderDojo"
+
+msgid "No Dojos match your search query."
+msgstr "ITALIAN No Dojos match your search query."
+
+msgid "Private Dojo"
+msgstr "ITALIAN Private Dojo"
+
+msgid "This means this Dojo is only open to specific people (for example, students in a school). Please do not contact this Dojo."
+msgstr "ITALIAN This means this Dojo is only open to specific people (for example, students in a school). Please do not contact this Dojo."
+
+msgid "e.g. docklands.ie@coderdojo.com/docklandsdojo@gmail.com"
+msgstr "ITALIAN e.g. docklands.ie@coderdojo.com/docklandsdojo@gmail.com"
+
+msgid "e.g. Docklands, Dublin 1 @ CHQ Building"
+msgstr "ITALIAN e.g. Docklands, Dublin 1 @ CHQ Building"
+
+msgid "e.g. Saturdays, monthly, 9-11am"
+msgstr "ITALIAN e.g. Saturdays, monthly, 9-11am"
+
+msgid "Badge Accepted!"
+msgstr "ITALIAN Badge Accepted!"
+
+msgid "Dojo Supported By"
+msgstr "ITALIAN Dojo Supported By"
+
+msgid "Email is required"
+msgstr "ITALIAN Email is required"
+
+msgid "We have just relaunched Zen, click here to reset your password"
+msgstr "ITALIAN We have just relaunched Zen, click here to reset your password"
+
+msgid "Join request not found"
+msgstr "ITALIAN Join request not found"
+
+msgid "You must have the Dojo Admin permission to accept user join requests."
+msgstr "ITALIAN You must have the Dojo Admin permission to accept user join requests."
+
+msgid "You must have the parent/guardian user type to accept this invite"
+msgstr "ITALIAN You must have the parent/guardian user type to accept this invite"
+
+msgid "Invite token not found"
+msgstr "ITALIAN Invite token not found"
+
+msgid "Only the invited parent can approve this request."
+msgstr "ITALIAN Only the invited parent can approve this request."
+
+msgid "This email is already associated with an account."
+msgstr "ITALIAN This email is already associated with an account."
+
+msgid "on"
+msgstr "ITALIAN on"
+
+msgid "at"
+msgstr "ITALIAN at"
+
+msgid "Export Guest List"
+msgstr "ITALIAN Export Guest List"
+
+msgid "Start time"
+msgstr "ITALIAN Start time"
+
+msgid "End time"
+msgstr "ITALIAN End time"
+
+msgid "Charter already signed."
+msgstr "ITALIAN Charter already signed."
+
+msgid "Your profile image is too large. Please resize to a maximum of 640/640 pixels."
+msgstr "ITALIAN Your profile image is too large. Please resize to a maximum of 640/640 pixels."
+
+msgid "By changing one of the following: Dojo Name, Country, City/Town, your dojo public url will be changed. Do you agree with this?"
+msgstr "ITALIAN By changing one of the following: Dojo Name, Country, City/Town, your dojo public url will be changed. Do you agree with this?"
+
+msgid "Avatar upload: file must be an image."
+msgstr "ITALIAN Avatar upload: file must be an image."
+
+msgid "Avatar upload: max file size of 5MB exceeded."
+msgstr "ITALIAN Avatar upload: max file size of 5MB exceeded."
+
+msgid "Home"
+msgstr "ITALIAN Home"
+
+msgid "Edit Dojo"
+msgstr "ITALIAN Edit Dojo"
+
+msgid "My Events"
+msgstr "ITALIAN My Events"
+
+msgid "Review Champion Application"
+msgstr "ITALIAN Review Champion Application"
+
+msgid "Manage Dojo Users"
+msgstr "ITALIAN Manage Dojo Users"
+
+msgid "Setup Dojo"
+msgstr "ITALIAN Setup Dojo"
+
+msgid "Accept Badge"
+msgstr "ITALIAN Accept Badge"
+
+msgid "Approve Ninja"
+msgstr "ITALIAN Approve Ninja"
+
+msgid "Reset Password"
+msgstr "ITALIAN Reset Password"
+
+msgid "Terms & Conditions"
+msgstr "ITALIAN Terms & Conditions"
+
+msgid "Edit Event"
+msgstr "ITALIAN Edit Event"

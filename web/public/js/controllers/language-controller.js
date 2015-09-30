@@ -1,6 +1,6 @@
 'use strict';
 
-var languageCtrl = function($scope, cdLanguagesService, alertService, $cookies, $translate, $window){
+var languageCtrl = function($scope, cdLanguagesService, alertService, $cookies, $translate, $window, $state){
 
   var DEFAULT_LANGUAGE = 'en_US';
 

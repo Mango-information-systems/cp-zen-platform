@@ -29,13 +29,13 @@
 
     return {
       load: function(id, win, fail) {
-        cdApi.get('dojos/' + id, win, fail || topfail);
+        cdApi.get('/api/2.0/dojos/' + id, win, fail || topfail);
       },
       find: function(query, win, fail) {
         cdApi2.post('/api/2.0/dojos/find', {query:query}, win, fail || topfail);
       },
       list: function(query, win, fail){
-        cdApi.post('dojos', {query:query}, win, fail || topfail);
+        cdApi2.post('/api/2.0/dojos', {query:query}, win, fail || topfail);
       },
       myDojos: function (search, win, fail) {
         return $q(function(resolve, reject) {
@@ -72,7 +72,7 @@
         cdApi.get('dojos_count', win, fail || topfail);
       },
       dojosByCountry: function(query, win, fail) {
-        cdApi.post('dojos_by_country', {query: query}, win, fail || topfail);
+        cdApi2.post('/api/2.0/dojos_by_country', {query: query}, win, fail || topfail);
       },
       dojosStateCount: function(country, win, fail) {
         cdApi.get('dojos_state_count/' + country, win, fail || topfail);
@@ -156,7 +156,7 @@
         cdApi.get('uncompleted_dojos', win, fail || topfail);
       },
       getDojoConfig: function(win, fail) {
-        cdApi.get('get_dojo_config', win, fail || topfail);
+        cdApi2.get('/api/2.0/get_dojo_config', win, fail || topfail);
       },
       updateFounder: function(founder, win, fail) {
         cdApi.post('update_founder', {founder: founder},  win, fail || topfail);

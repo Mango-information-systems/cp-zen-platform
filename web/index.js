@@ -161,6 +161,17 @@ server.register(dojos, function (err) {
   checkHapiPluginError('dojos')(err);
 });
 
+// server method - validate user has logged in ok
+var validateLogin = function (seneca, token, cb) {
+  seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
+    if (err) return cb(err);
+    if (resp.ok === false) return cb(resp.why, null, 403);
+    return cb(null, resp);
+  });
+};
+
+server.method('validateLogin', validateLogin, {});
+
 // Set up Chairo and seneca, then start the server.
 server.register({ register: Chairo, options: options }, function (err) {
   checkHapiPluginError('Chairo')(err);

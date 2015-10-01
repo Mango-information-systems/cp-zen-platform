@@ -110,6 +110,7 @@
         cdApi.get('load_setup_dojo_steps', win, fail || topfail);
       },
       getUsersDojos: function(query, win, fail) {
+        //cdApi2.post('/api/2.0/dojos/users', {query: query}, win, fail || topfail);
         cdApi.post('dojos/users', {query: query}, win, fail || topfail);
       },
       searchDojoLeads: function(query) {
@@ -119,7 +120,7 @@
       },
       getUsersDojosPromise: function(query){
         var deferred = $q.defer();
-        cdApi.post('dojos/users', {query: query}, deferred.resolve, deferred.reject);
+        cdApi2.post('/api/2.0/dojos/users', {query: query}, deferred.resolve, deferred.reject);
         return deferred.promise;
       },
       loadDojoUsers: function(query, win, fail) {

@@ -5,11 +5,23 @@
     }
     var currentDojo = {};
 
+    // TODO - refactor into it's own service
+    var baseUrl = 'api/2.0/';
     var cdApi2 = {
       post: function(url, params, resolve, reject) {
         $http({
           method: 'POST',
-          url: url,
+          url: baseUrl + url,
+          data: JSON.stringify(params),
+          headers: {'Content-Type': 'application/json'}
+        }).then(function(result) {
+          resolve(result.data);
+        }, reject);
+      },
+      put: function(url, params, resolve, reject) {
+        $http({
+          method: 'PUT',
+          url: baseUrl + url,
           data: JSON.stringify(params),
           headers: {'Content-Type': 'application/json'}
         }).then(function(result) {
@@ -19,7 +31,16 @@
       get: function(url, resolve, reject) {
         $http({
           method: 'GET',
-          url: url,
+          url: baseUrl + url,
+          headers: {'Content-Type': 'application/json'}
+        }).then(function(result) {
+          resolve(result.data);
+        }, reject);
+      },
+      delete: function(url, resolve, reject) {
+        $http({
+          method: 'DELETE',
+          url: baseUrl + url,
           headers: {'Content-Type': 'application/json'}
         }).then(function(result) {
           resolve(result.data);
@@ -27,15 +48,17 @@
       }
     };
 
+    cdApi = cdApi2;
+
     return {
       load: function(id, win, fail) {
-        cdApi.get('/api/2.0/dojos/' + id, win, fail || topfail);
+        cdApi.get('dojos/' + id, win, fail || topfail);
       },
       find: function(query, win, fail) {
-        cdApi2.post('/api/2.0/dojos/find', {query:query}, win, fail || topfail);
+        cdApi.post('dojos/find', {query:query}, win, fail || topfail);
       },
       list: function(query, win, fail){
-        cdApi2.post('/api/2.0/dojos', {query:query}, win, fail || topfail);
+        cdApi.post('dojos', {query:query}, win, fail || topfail);
       },
       myDojos: function (search, win, fail) {
         return $q(function(resolve, reject) {
@@ -72,7 +95,7 @@
         cdApi.get('dojos_count', win, fail || topfail);
       },
       dojosByCountry: function(query, win, fail) {
-        cdApi2.post('/api/2.0/dojos_by_country', {query: query}, win, fail || topfail);
+        cdApi.post('dojos_by_country', {query: query}, win, fail || topfail);
       },
       dojosStateCount: function(country, win, fail) {
         cdApi.get('dojos_state_count/' + country, win, fail || topfail);
@@ -110,7 +133,6 @@
         cdApi.get('load_setup_dojo_steps', win, fail || topfail);
       },
       getUsersDojos: function(query, win, fail) {
-        //cdApi2.post('/api/2.0/dojos/users', {query: query}, win, fail || topfail);
         cdApi.post('dojos/users', {query: query}, win, fail || topfail);
       },
       searchDojoLeads: function(query) {
@@ -120,7 +142,7 @@
       },
       getUsersDojosPromise: function(query){
         var deferred = $q.defer();
-        cdApi2.post('/api/2.0/dojos/users', {query: query}, deferred.resolve, deferred.reject);
+        cdApi.post('dojos/users', {query: query}, deferred.resolve, deferred.reject);
         return deferred.promise;
       },
       loadDojoUsers: function(query, win, fail) {
@@ -157,7 +179,7 @@
         cdApi.get('uncompleted_dojos', win, fail || topfail);
       },
       getDojoConfig: function(win, fail) {
-        cdApi2.get('/api/2.0/get_dojo_config', win, fail || topfail);
+        cdApi.get('get_dojo_config', win, fail || topfail);
       },
       updateFounder: function(founder, win, fail) {
         cdApi.post('update_founder', {founder: founder},  win, fail || topfail);
@@ -169,13 +191,12 @@
       },
       searchBoundingBox: function(query) {
         return $q(function(resolve, reject) {
-          cdApi2.post('/api/2.0/dojos/search_bounding_box', {query: query}, resolve, reject);
+          cdApi.post('dojos/search_bounding_box', {query: query}, resolve, reject);
         });
       },
       // from countries service
       listCountries: function(win, fail){
-        // cdApi.get('countries', function (countries) {
-        cdApi2.get('/api/2.0/countries', function (countries) {
+        cdApi.get('countries', function (countries) {
           // Convert to array (and ensure array exists).
           countries = _.map(countries);
           // Sort based on browser/OS's locale.

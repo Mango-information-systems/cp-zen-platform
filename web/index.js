@@ -172,6 +172,34 @@ var validateLogin = function (seneca, token, cb) {
 
 server.method('validateLogin', validateLogin, {});
 
+// Locale related server method
+function formatLocaleCode (code) {
+  return code.slice(0, 3) + code.charAt(3).toUpperCase() + code.charAt(4).toUpperCase();
+}
+
+var locality = function(request) {
+  var ngKey;
+  if (request.state.NG_TRANSLATE_LANG_KEY) {
+    // TODO - shouldn't hapi decode cookies?
+    ngKey = decodeURIComponent(request.state.NG_TRANSLATE_LANG_KEY);
+    ngKey = ngKey.replace(/\"/g, '');
+  }
+
+  var local = ngKey || request.headers['accept-language'];
+  if (!local) local = 'en_US';
+  local = formatLocaleCode(local);
+
+  return local;
+}
+
+server.method('locality', locality, {});
+
+// TODO - what's the ttl on the express cookie??
+server.state('seneca-login', {
+  ttl: 2 * 24 * 60 * 60 * 1000,     // two days
+  path: '/'
+});
+
 // Set up Chairo and seneca, then start the server.
 server.register({ register: Chairo, options: options }, function (err) {
   checkHapiPluginError('Chairo')(err);

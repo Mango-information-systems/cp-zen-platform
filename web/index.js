@@ -161,6 +161,11 @@ server.register(dojos, function (err) {
   checkHapiPluginError('dojos')(err);
 });
 
+var cdUsers = require('../lib/users/users-service.js')
+server.register(cdUsers, function (err) {
+  checkHapiPluginError('users-service')(err);
+});
+
 // server method - validate user has logged in ok
 var validateLogin = function (seneca, token, cb) {
   seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {

@@ -19,6 +19,7 @@ var cacheTimes = require('./config/cache-times');
 var cuid = require('cuid');
 var util = require('util');
 var fs = require('fs');
+var debug = require('debug')('cp-zen-platform:index');
 
 require('./lib/dust-i18n.js');
 
@@ -39,7 +40,6 @@ function checkHapiPluginError (name) {
 }
 
 // Set up HAPI
-
 server.connection({
   port: port,
   // According to the HTTP spec and Chrome audit tool, Cache-Control headers should match what
@@ -56,6 +56,12 @@ server.views({
   partialsPath: path.join(__dirname, './public/templates')
 });
 
+/*
+server.ext('onRequest', function (request, reply) {
+  console.log("onRequst", request.url);
+  reply.continue();
+});
+*/
 server.ext('onPreAuth', function (request, reply) {
   var localesFormReq = (request.state && request.state.NG_TRANSLATE_LANG_KEY && request.state.NG_TRANSLATE_LANG_KEY.replace(/\"/g, ''))
     || request.headers['accept-language'];
@@ -98,6 +104,62 @@ server.ext('onPreResponse', function (request, reply) {
 
   // Otherwise, give a generic error reply to hide errors in production.
   return reply.view('errors/500', request.locals);
+});
+
+function getUser (request, cb) {
+  var token = request.state['seneca-login'];
+  if (token) {
+    request.seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
+      if (err) return cb(err);
+      if (resp.ok === false) {
+        return cb('login not ok');
+      }
+      return cb(null, resp);
+    });
+  } else {
+    setImmediate(cb);
+  }
+};
+
+server.ext('onPostAuth', function (request, reply) {
+  debug('onPostAuth', request.url.path, 'login:', request.state['seneca-login']);
+  var url = request.url.path;
+  var profileUrl = '/dashboard/profile';
+  var restrictedRoutesWhenLoggedIn = ['/', '/register', '/login'];
+
+  getUser(request, function (err, user) {
+    if (err) {
+      console.error(err);
+      return reply.continue();
+    }
+    // debug('onPostAuth', 'user:', user);
+    request.user = user;
+
+    if (_.contains(url, profileUrl) && !request.user) {
+      var userId = url.split('/')[3];
+      debug('onPostAuth', 'profile redirect:', userId);
+      return reply.redirect('/profile/' + userId);
+    }
+
+    if (_.contains(url, '/dashboard') && !_.contains(url, '/login') && !request.user) {
+      // Not logged in, redirect to dojo-detail if trying to see dojo detail
+      if (/\/dashboard\/dojo\/[a-zA-Z]{2}\//.test(url)){
+        debug('onPostAuth', 'redirecting to dojo detail');
+        return reply.redirect(url.replace('dashboard/',''))
+      } else {
+        // Otherwise, redirect to /login with referer parameter
+        debug('onPostAuth', 'redirecting to /login with referer', url);
+        var referer = encodeURIComponent(url);
+        return reply.redirect('/login?referer=' + url);
+      }
+    }
+
+    if (_.contains(restrictedRoutesWhenLoggedIn, url) && request.user) {
+      debug('onPostAuth', 'url has restricted routes:', url, 'redirecting to /dashboard/dojo-list');
+      return reply.redirect('/dashboard/dojo-list');
+    }
+    return reply.continue();
+  });
 });
 
 // TODO Using stream here causes responses from seneca-web to be buffered, which may impact performance.
@@ -219,13 +281,13 @@ server.register({ register: Chairo, options: options }, function (err) {
 
     seneca
       .use('ng-web')
-      .use(require('../lib/users/user.js'))
-      .use('auth')
-      .use('user-roles')
+      //.use(require('../lib/users/user.js'))
+      //.use('auth')
+      //.use('user-roles')
       .use('web-access')
       .use(require('../lib/charter/cd-charter.js'))
-      .use(require('../lib/dojos/cd-dojos.js'))
-      .use(require('../lib/users/cd-users.js'))
+      //.use(require('../lib/dojos/cd-dojos.js'))
+      //.use(require('../lib/users/cd-users.js'))
       .use(require('../lib/agreements/cd-agreements.js'))
       .use(require('../lib/badges/cd-badges.js'))
       .use(require('../lib/profiles/cd-profiles.js'))

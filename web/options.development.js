@@ -5,7 +5,9 @@ var base = require('./options.base.js');
 
 module.exports = _.defaults({
   'agreement-version' : 2,
+
   auth: {
+/*
     restrict: function (req, res, next) {
       var profileUrl = '/dashboard/profile';
       var restrictedRoutesWhenLoggedIn = ['/', '/register', '/login'];
@@ -25,6 +27,7 @@ module.exports = _.defaults({
       if(_.contains(restrictedRoutesWhenLoggedIn, req.url) && req.seneca && req.seneca.user) return res.redirect(302, '/dashboard/dojo-list');
       return next();
     },
+*/
     sendemail: false,
     email: {
       code: {

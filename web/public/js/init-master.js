@@ -324,9 +324,7 @@
         pageTitle.push("CoderDojo Zen");
         $rootScope.pageTitle = pageTitle.join(" | ");
       });
-    })
-    .service('cdApi', seneca.ng.web({
+    }).service('cdApi', seneca.ng.web({
       prefix: '/api/1.0/'
     }));
 })();
-

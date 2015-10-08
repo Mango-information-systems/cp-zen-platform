@@ -19,7 +19,7 @@ angular.module('cpZenPlatform').service('auth', function($http, $q) {
     },
 
     instance: function(win,fail){
-      $http({method:'GET', url: '/auth/instance', cache:false}).
+      $http({method:'GET', url: '/api/2.0/users/instance', cache:false}).
         success(win).error(fail||topfail)
     },
 

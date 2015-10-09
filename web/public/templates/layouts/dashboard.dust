@@ -125,6 +125,7 @@
 
     <script src="/js/cp-zen-platform.js"></script>
 
+    <script src="/js/services/cd-api.js"></script>
     <script src="/js/services/auth-service.js"></script>
     <script src="/js/services/cd-charter-service.js"></script>
     <script src="/js/services/cd-dojo-service.js"></script>

@@ -505,8 +505,5 @@
           $window.location.href = '/'
         })
       });
-    })
-    .service('cdApi', seneca.ng.web({
-      prefix: '/api/1.0/'
-    }));
+    });
 })();

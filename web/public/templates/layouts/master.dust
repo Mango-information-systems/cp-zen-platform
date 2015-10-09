@@ -158,7 +158,8 @@
     <script src="/js/controllers/accept-child-controller.js"></script>
     <script src="/js/controllers/dojos-map-controller.js"></script>
     <script src="/js/controllers/badges-dashboard-controller.js"></script>
-    
+
+    <script src="/js/services/cd-api.js"></script>
     <script src="/js/services/cd-dojo-service.js"></script>
     <script src="/js/services/geocoder-service.js"></script>
     <script src="/js/services/auth-service.js"></script>

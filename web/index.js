@@ -280,11 +280,11 @@ server.register({ register: Chairo, options: options }, function (err) {
     var seneca = server.seneca;
 
     seneca
-      .use('ng-web')
+      //.use('ng-web')
       //.use(require('../lib/users/user.js'))
       //.use('auth')
       //.use('user-roles')
-      .use('web-access')
+      //.use('web-access')
       .use(require('../lib/charter/cd-charter.js'))
       //.use(require('../lib/dojos/cd-dojos.js'))
       //.use(require('../lib/users/cd-users.js'))

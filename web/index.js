@@ -255,6 +255,11 @@ server.register({register: configRoute, options: options.webclient}, function (e
   checkHapiPluginError('config')(err);
 });
 
+var oauth2 = require('../lib/oauth2/oauth2.js');
+server.register(oauth2, function (err) {
+  checkHapiPluginError('oauth2')(err);
+});
+
 // server method - validate user has logged in ok
 var validateLogin = function (seneca, token, cb) {
   seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
@@ -319,7 +324,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       .use(require('../lib/badges/cd-badges.js'))
       .use(require('../lib/profiles/cd-profiles.js'))
       .use(require('../lib/events/cd-events.js'))
-      .use(require('../lib/oauth2/cd-oauth2.js'))
+      //.use(require('../lib/oauth2/cd-oauth2.js'))
       //.use(require('../lib/config/cd-config.js'), options.webclient)
       //.use(require('../lib/sys/cd-sys.js'));
 

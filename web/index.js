@@ -112,6 +112,7 @@ server.ext('onPreResponse', function (request, reply) {
   return reply.view('errors/500', request.locals);
 });
 
+// TODO - cache!
 function getUser (request, cb) {
   var token = request.state['seneca-login'];
   if (token) {
@@ -138,9 +139,10 @@ server.ext('onPostAuth', function (request, reply) {
       console.error(err);
       return reply.continue();
     }
-    // debug('onPostAuth', 'user:', user);
+    debug('onPostAuth', 'user:', user);
     request.user = user;
 
+    // profile redirect
     if (_.contains(url, profileUrl) && !request.user) {
       var userId = url.split('/')[3];
       debug('onPostAuth', 'profile redirect:', userId);
@@ -170,10 +172,6 @@ server.ext('onPostAuth', function (request, reply) {
   });
 });
 
-// TODO Using stream here causes responses from seneca-web to be buffered, which may impact performance.
-//      However, most of them aren't large sized responses, so the benefit of Etag outweighs that penalty.
-//      Implementing better streaming support in hapi-etags may be fairly straightforward using Etag in the
-//      Trailer rather than Header... - wprl
 server.register({ register: require('hapi-etags'), options: { varieties: ['plain', 'buffer', 'stream'] } }, checkHapiPluginError('hapi-etags'));
 
 server.register(Scooter, function (err) {
@@ -275,17 +273,6 @@ var events = require('../lib/events/events.js');
 server.register(events, function (err) {
   checkHapiPluginError('events')(err);
 });
-
-// server method - validate user has logged in ok
-var validateLogin = function (seneca, token, cb) {
-  seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
-    if (err) return cb(err);
-    if (resp.ok === false) return cb(resp.why, null, 403);
-    return cb(null, resp);
-  });
-};
-
-server.method('validateLogin', validateLogin, {});
 
 // Locale related server method
 function formatLocaleCode (code) {

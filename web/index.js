@@ -81,6 +81,11 @@ server.ext('onPreAuth', function (request, reply) {
 server.ext('onPreResponse', function (request, reply) {
   var status = request.response.statusCode;
 
+  // if it's an api call, continue as normal..
+  if (request.url.path.indexOf('/api/2.0') === 0) {
+    return reply.continue();
+  }
+
   if (status !== 404 && status !== 401) {
     return reply.continue();
   }
@@ -220,29 +225,34 @@ if (process.env.HAPI_DEBUG === 'true') {
   server.register({ register: require('good'), options: goodOptions }, checkHapiPluginError('Good Logger'));
 }
 
-var dojos = require('../lib/dojos/dojos.js')
+var dojos = require('../lib/dojos/dojos.js');
 server.register(dojos, function (err) {
   checkHapiPluginError('dojos')(err);
 });
 
-var cdUsers = require('../lib/users/users-service.js')
+var cdUsers = require('../lib/users/users-service.js');
 server.register(cdUsers, function (err) {
   checkHapiPluginError('users-service')(err);
 });
 
-var charter = require('../lib/charter/charter.js')
+var charter = require('../lib/charter/charter.js');
 server.register(charter, function (err) {
   checkHapiPluginError('charter')(err);
 });
 
-var agreements = require('../lib/agreements/agreements.js')
+var agreements = require('../lib/agreements/agreements.js');
 server.register(agreements, function (err) {
   checkHapiPluginError('agreements')(err);
 });
 
-var sys = require('../lib/sys/sys.js')
+var sys = require('../lib/sys/sys.js');
 server.register(sys, function (err) {
   checkHapiPluginError('sys')(err);
+});
+
+var configRoute = require('../lib/config/config.js');
+server.register({register: configRoute, options: options.webclient}, function (err) {
+  checkHapiPluginError('config')(err);
 });
 
 // server method - validate user has logged in ok
@@ -310,7 +320,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       .use(require('../lib/profiles/cd-profiles.js'))
       .use(require('../lib/events/cd-events.js'))
       .use(require('../lib/oauth2/cd-oauth2.js'))
-      .use(require('../lib/config/cd-config.js'), options.webclient)
+      //.use(require('../lib/config/cd-config.js'), options.webclient)
       //.use(require('../lib/sys/cd-sys.js'));
 
     _.each(options.client, function(opts) {

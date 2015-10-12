@@ -228,6 +228,11 @@ server.register(cdUsers, function (err) {
   checkHapiPluginError('users-service')(err);
 });
 
+var charter = require('../lib/charter/charter.js')
+server.register(charter, function (err) {
+  checkHapiPluginError('charter')(err);
+});
+
 // server method - validate user has logged in ok
 var validateLogin = function (seneca, token, cb) {
   seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
@@ -285,7 +290,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       //.use('auth')
       //.use('user-roles')
       //.use('web-access')
-      .use(require('../lib/charter/cd-charter.js'))
+      //.use(require('../lib/charter/cd-charter.js'))
       //.use(require('../lib/dojos/cd-dojos.js'))
       //.use(require('../lib/users/cd-users.js'))
       .use(require('../lib/agreements/cd-agreements.js'))

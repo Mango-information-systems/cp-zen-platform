@@ -224,52 +224,52 @@ if (process.env.HAPI_DEBUG === 'true') {
   server.register({ register: require('good'), options: goodOptions }, checkHapiPluginError('Good Logger'));
 }
 
-var dojos = require('../lib/dojos/dojos.js');
+var dojos = require('../lib/dojos.js');
 server.register(dojos, function (err) {
   checkHapiPluginError('dojos')(err);
 });
 
-var cdUsers = require('../lib/users/users-service.js');
+var cdUsers = require('../lib/users.js');
 server.register(cdUsers, function (err) {
-  checkHapiPluginError('users-service')(err);
+  checkHapiPluginError('users')(err);
 });
 
-var charter = require('../lib/charter/charter.js');
+var charter = require('../lib/charter.js');
 server.register(charter, function (err) {
   checkHapiPluginError('charter')(err);
 });
 
-var agreements = require('../lib/agreements/agreements.js');
+var agreements = require('../lib/agreements.js');
 server.register(agreements, function (err) {
   checkHapiPluginError('agreements')(err);
 });
 
-var sys = require('../lib/sys/sys.js');
+var sys = require('../lib/sys.js');
 server.register(sys, function (err) {
   checkHapiPluginError('sys')(err);
 });
 
-var configRoute = require('../lib/config/config.js');
+var configRoute = require('../lib/config.js');
 server.register({register: configRoute, options: options.webclient}, function (err) {
   checkHapiPluginError('config')(err);
 });
 
-var oauth2 = require('../lib/oauth2/oauth2.js');
+var oauth2 = require('../lib/oauth2.js');
 server.register(oauth2, function (err) {
   checkHapiPluginError('oauth2')(err);
 });
 
-var profiles = require('../lib/profiles/profiles.js');
+var profiles = require('../lib/profiles.js');
 server.register(profiles, function (err) {
   checkHapiPluginError('profiles')(err);
 });
 
-var badges = require('../lib/badges/badges.js');
+var badges = require('../lib/badges.js');
 server.register(badges, function (err) {
   checkHapiPluginError('badges')(err);
 });
 
-var events = require('../lib/events/events.js');
+var events = require('../lib/events.js');
 server.register(events, function (err) {
   checkHapiPluginError('events')(err);
 });

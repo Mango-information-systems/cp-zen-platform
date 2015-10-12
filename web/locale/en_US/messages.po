@@ -1780,8 +1780,8 @@ msgstr "Please describe how you have background checked your team."
 msgid "Set up background checking for all volunteers."
 msgstr "Set up background checking for all volunteers."
 
-msgid "The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on Kata <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
-msgstr "The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on Kata <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
+msgid "The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">Kata</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
+msgstr "The requirements for background checking are specific to the legislation in your jurisdiction. You can see some guidelines on Child Protection and Background Checking on <a href="http://kata.coderdojo.com/wiki/Child_Protection_and_Background_Checking">Kata</a>. Please also ensure you check your local legislation. Please comment below describing the situation in your local Dojo."
 
 msgid "A suitable venue has tables, chairs, heat and ideally, wifi! Canteens, community centers, libraries, schools and corporate offices all make great venues. Venues should not replicate a teacher led classroom environment, instead rearrange the desks and chairs, put youths together and ensure there is space for mentors to walk around and assist the young people. Dojos should only be hosted in public spaces, you cannot host your Dojo in a private residence!"
 msgstr "A suitable venue has tables, chairs, heat and ideally, wifi! Canteens, community centers, libraries, schools and corporate offices all make great venues. Venues should not replicate a teacher led classroom environment, instead rearrange the desks and chairs, put youths together and ensure there is space for mentors to walk around and assist the young people. Dojos should only be hosted in public spaces, you cannot host your Dojo in a private residence!"
@@ -2282,6 +2282,9 @@ msgstr "Are you sure you want to delete this Session/room?"
 msgid "Session/room name"
 msgstr "Session/room name"
 
+msgid "Sessions/rooms:"
+msgstr "Sessions/rooms:"
+
 msgid "e.g. Scratch"
 msgstr "e.g. Scratch"
 
@@ -2490,9 +2493,6 @@ msgstr "Edit Event"
 msgid "Turn on ticket approval"
 msgstr "Turn on ticket approval"
 
-msgid "Require approval by ticket admins to attend this Dojos events. Applicants will receive an email informing them their ticket must be approved before admittance"
-msgstr "Require approval by ticket admins to attend this Dojos events. Applicants will receive an email informing them their ticket must be approved before admittance"
-
 msgid "Book now"
 msgstr "Book now"
 
@@ -2559,6 +2559,9 @@ msgstr "Cancelling this session will cancel the event as this is the only sessio
 msgid "Public events are viewable by anyone visiting your Dojo listing. Private events can only be seen by members of your Dojo."
 msgstr "Public events are viewable by anyone visiting your Dojo listing. Private events can only be seen by members of your Dojo."
 
+msgid "Invite Dojo Members"
+msgstr "Invite Dojo Members"
+
 msgid "Are you a parent/guardian?"
 msgstr "Are you a parent/guardian?"
 
@@ -2570,3 +2573,54 @@ msgstr "add them to your profile first"
 
 msgid "in the ninja section"
 msgstr "in the ninja section"
+
+msgid "Invite Dojo Members to this session"
+msgstr "Invite Dojo Members to this session"
+
+msgid "Save Invite List"
+msgstr "Save Invite List"
+
+msgid "You must complete all of the ticket details before inviting Dojo members."
+msgstr "You must complete all of the ticket details before inviting Dojo members."
+
+msgid "Dojo members successfully added to invite list. They will be notified of the invite when you publish this event."
+msgstr "Dojo members successfully added to invite list. They will be notified of the invite when you publish this event."
+
+msgid "Session Invite"
+msgstr "Session Invite"
+
+msgid "Session invitation is being validated..."
+msgstr "Session invitation is being validated..."
+
+msgid "Invitation successfully validated. Your ticket has been sent to your email."
+msgstr "Invitation successfully validated. Your ticket has been sent to your email."
+
+msgid "Invalid session invitation."
+msgstr "Invalid session invitation."
+
+msgid "Only the invited user can accept this invitation."
+msgstr "Only the invited user can accept this invitation."
+
+msgid "No invites found"
+msgstr "No invites found"
+
+msgid "How do I choose?"
+msgstr "How do I choose?"
+
+msgid "Champion - A CoderDojo Champion is an individual who spearheads setting up and maintaining a Dojo. Champions do not necessarily have to have the ability to code but possess the skills required to bring together technical mentors and supporters to run a Dojo frequently!"
+msgstr "Champion - A CoderDojo Champion is an individual who spearheads setting up and maintaining a Dojo. Champions do not necessarily have to have the ability to code but possess the skills required to bring together technical mentors and supporters to run a Dojo frequently!"
+
+msgid "Mentor/Volunteer - these volunteers power their local Dojos with their technical and organisational skills and inspire the next generation of coders, entrepreneurs and innovators!"
+msgstr "Mentor/Volunteer - these volunteers power their local Dojos with their technical and organisational skills and inspire the next generation of coders, entrepreneurs and innovators!"
+
+msgid "Ninja Over 13 - A Ninja is a young person who attends their local Dojo! Only Ninjas over 13 can have their own account, Ninjas under 13 must register under their Parent/Guardians account."
+msgstr "Ninja Over 13 - A Ninja is a young person who attends their local Dojo! Only Ninjas over 13 can have their own account, Ninjas under 13 must register under their Parent/Guardians account."
+
+msgid "Parent/Guardian - Parents/kids are super important in CoderDojo as they encourage and inspire CoderDojo Ninjas on a daily basis! Parents can sign up on the platform to register their kids (both aged under 13 and over 13) for their Local Dojos events and so their kids can earn badges for their profile!"
+msgstr "Parent/Guardian - Parents/kids are super important in CoderDojo as they encourage and inspire CoderDojo Ninjas on a daily basis! Parents can sign up on the platform to register their kids (both aged under 13 and over 13) for their Local Dojos events and so their kids can earn badges for their profile!"
+
+msgid "Enabling this will require you or another admin with Ticketing Admin permissions to approve applications to attend this event."
+msgstr "Enabling this will require you or another admin with Ticketing Admin permissions to approve applications to attend this event."
+
+msgid "Place name must be less than 40 characters."
+msgstr "Place name must be less than 40 characters."

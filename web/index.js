@@ -233,6 +233,11 @@ server.register(charter, function (err) {
   checkHapiPluginError('charter')(err);
 });
 
+var agreements = require('../lib/agreements/agreements.js')
+server.register(charter, function (err) {
+  checkHapiPluginError('agreements')(err);
+});
+
 // server method - validate user has logged in ok
 var validateLogin = function (seneca, token, cb) {
   seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
@@ -293,7 +298,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       //.use(require('../lib/charter/cd-charter.js'))
       //.use(require('../lib/dojos/cd-dojos.js'))
       //.use(require('../lib/users/cd-users.js'))
-      .use(require('../lib/agreements/cd-agreements.js'))
+      //.use(require('../lib/agreements/cd-agreements.js'))
       .use(require('../lib/badges/cd-badges.js'))
       .use(require('../lib/profiles/cd-profiles.js'))
       .use(require('../lib/events/cd-events.js'))

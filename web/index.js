@@ -158,6 +158,8 @@ server.ext('onPostAuth', function (request, reply) {
       debug('onPostAuth', 'url has restricted routes:', url, 'redirecting to /dashboard/dojo-list');
       return reply.redirect('/dashboard/dojo-list');
     }
+
+    debug('onPostAuth', 'continuing');
     return reply.continue();
   });
 });
@@ -234,8 +236,13 @@ server.register(charter, function (err) {
 });
 
 var agreements = require('../lib/agreements/agreements.js')
-server.register(charter, function (err) {
+server.register(agreements, function (err) {
   checkHapiPluginError('agreements')(err);
+});
+
+var sys = require('../lib/sys/sys.js')
+server.register(sys, function (err) {
+  checkHapiPluginError('sys')(err);
 });
 
 // server method - validate user has logged in ok
@@ -304,7 +311,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       .use(require('../lib/events/cd-events.js'))
       .use(require('../lib/oauth2/cd-oauth2.js'))
       .use(require('../lib/config/cd-config.js'), options.webclient)
-      .use(require('../lib/sys/cd-sys.js'));
+      //.use(require('../lib/sys/cd-sys.js'));
 
     _.each(options.client, function(opts) {
       seneca.client(opts);

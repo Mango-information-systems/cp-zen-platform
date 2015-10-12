@@ -89,7 +89,7 @@ server.ext('onPreResponse', function (request, reply) {
   if (status !== 404 && status !== 401) {
     return reply.continue();
   }
-
+  debug('onPreResponse', 'showing 404 errors page');
   return reply.view('errors/404', request.locals);
 });
 
@@ -108,6 +108,7 @@ server.ext('onPreResponse', function (request, reply) {
   }
 
   // Otherwise, give a generic error reply to hide errors in production.
+  debug('onPreResponse', 'showing 500 errors page');
   return reply.view('errors/500', request.locals);
 });
 
@@ -270,6 +271,11 @@ server.register(badges, function (err) {
   checkHapiPluginError('badges')(err);
 });
 
+var events = require('../lib/events/events.js');
+server.register(events, function (err) {
+  checkHapiPluginError('events')(err);
+});
+
 // server method - validate user has logged in ok
 var validateLogin = function (seneca, token, cb) {
   seneca.act({role: 'user', cmd:'auth', token: token}, function (err, resp) {
@@ -321,7 +327,7 @@ server.register({ register: Chairo, options: options }, function (err) {
 
     var seneca = server.seneca;
 
-    seneca
+    //seneca
       //.use('ng-web')
       //.use(require('../lib/users/user.js'))
       //.use('auth')
@@ -333,7 +339,7 @@ server.register({ register: Chairo, options: options }, function (err) {
       //.use(require('../lib/agreements/cd-agreements.js'))
       //.use(require('../lib/badges/cd-badges.js'))
       //.use(require('../lib/profiles/cd-profiles.js'))
-      .use(require('../lib/events/cd-events.js'))
+      //.use(require('../lib/events/cd-events.js'))
       //.use(require('../lib/oauth2/cd-oauth2.js'))
       //.use(require('../lib/config/cd-config.js'), options.webclient)
       //.use(require('../lib/sys/cd-sys.js'));
@@ -354,7 +360,7 @@ server.register({ register: Chairo, options: options }, function (err) {
     // }
 
     // Use seneca-web middleware with Hapi.
-
+    /*
     server.register({
       register: require('hapi-seneca'),
       options: {
@@ -368,11 +374,11 @@ server.register({ register: Chairo, options: options }, function (err) {
       }
     }, function (err) {
       checkHapiPluginError('hapi-seneca')(err);
-
+*/
       server.start(function() {
         console.log('[%s] Listening on http://localhost:%d', env, port);
       });
-    });
+   // });
   });
 });
 

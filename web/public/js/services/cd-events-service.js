@@ -19,13 +19,13 @@ function cdEventsService(cdApi, $q){
       cdApi.get('events/applications/' + eventId, win, fail || topfail);
     },
     saveApplication: function(application, win, fail) {
-      cdApi.post('events/applications', {application: application}, win, fail || topfail);
+      cdApi.post('events/application', {application: application}, win, fail || topfail);
     },
     searchApplications: function(query, win, fail) {
       cdApi.post('events/applications/search', {query: query}, win, fail || topfail);
     },
     removeApplicant: function(application, win, fail) {
-      cdApi.delete('events/applications/' + application.eventId + '/' + application.id, win, fail || topfail);
+      cdApi.delete('events/' + application.eventId + '/applications/' +  application.id, win, fail || topfail);
     },
     getUserDojosEvents: function(query, win, fail){
       cdApi.post('events/user-dojos-events', {query: query}, win, fail || topfail);

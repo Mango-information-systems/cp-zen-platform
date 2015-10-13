@@ -29,12 +29,12 @@ angular.module('cpZenPlatform').service('auth', function($http, $q) {
     },
 
     reset: function (creds, win, fail) {
-      $http({method: 'POST', url: '/api/2.0/users/reset_password', data: creds, cache: false}).
+      $http({method: 'POST', url: '/api/2.0/users/reset-password', data: creds, cache: false}).
         success(win).error(fail||topfail);
     },
 
     execute_reset: function(creds,win,fail){
-      $http({method:'POST', url: '/api/2.0/users/execute_reset', data:creds, cache:false}).
+      $http({method:'POST', url: '/api/2.0/users/execute-reset', data:creds, cache:false}).
         success(win).error(fail||topfail)
     },
 

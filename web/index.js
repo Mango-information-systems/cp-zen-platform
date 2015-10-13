@@ -56,12 +56,6 @@ server.views({
   partialsPath: path.join(__dirname, './public/templates')
 });
 
-/*
-server.ext('onRequest', function (request, reply) {
-  console.log("onRequst", request.url);
-  reply.continue();
-});
-*/
 server.ext('onPreAuth', function (request, reply) {
   var localesFormReq = (request.state && request.state.NG_TRANSLATE_LANG_KEY && request.state.NG_TRANSLATE_LANG_KEY.replace(/\"/g, ''))
     || request.headers['accept-language'];
@@ -310,63 +304,17 @@ server.register({ register: Chairo, options: options }, function (err) {
     register: require('chairo-cache'),
     options: { cacheName: 'cd-cache' }
   }, function (err) {
-    checkHapiPluginError('chairo-cache')(err);
+     checkHapiPluginError('chairo-cache')(err);
 
-    var seneca = server.seneca;
+     var seneca = server.seneca;
 
-    //seneca
-      //.use('ng-web')
-      //.use(require('../lib/users/user.js'))
-      //.use('auth')
-      //.use('user-roles')
-      //.use('web-access')
-      //.use(require('../lib/charter/cd-charter.js'))
-      //.use(require('../lib/dojos/cd-dojos.js'))
-      //.use(require('../lib/users/cd-users.js'))
-      //.use(require('../lib/agreements/cd-agreements.js'))
-      //.use(require('../lib/badges/cd-badges.js'))
-      //.use(require('../lib/profiles/cd-profiles.js'))
-      //.use(require('../lib/events/cd-events.js'))
-      //.use(require('../lib/oauth2/cd-oauth2.js'))
-      //.use(require('../lib/config/cd-config.js'), options.webclient)
-      //.use(require('../lib/sys/cd-sys.js'));
+     _.each(options.client, function(opts) {
+       seneca.client(opts);
+     });
 
-    _.each(options.client, function(opts) {
-      seneca.client(opts);
-    });
-
-    // // Potentially useful extra logging.
-
-    // seneca.logroute( {level:'all' });
-
-    // // capture seneca messages - leaving this here as we *may* do something with it
-    // // if the debug level json is not good enough logging.
-    // seneca.sub({}, captureAllMessages);
-    // function captureAllMessages(args) {
-    //   console.log('*** captured = ', JSON.stringify(args));
-    // }
-
-    // Use seneca-web middleware with Hapi.
-    /*
-    server.register({
-      register: require('hapi-seneca'),
-      options: {
-        cors: true,
-        session: {
-          secret: options.session.secret,
-          name: 'CD.ZENPLATFORM',
-          saveUninitialized: true,
-          resave: true
-        }
-      }
-    }, function (err) {
-      checkHapiPluginError('hapi-seneca')(err);
-*/
-      server.start(function() {
-        console.log('[%s] Listening on http://localhost:%d', env, port);
-      });
-   // });
-  });
+     server.start(function() {
+       console.log('[%s] Listening on http://localhost:%d', env, port);
+     });
+   });
 });
-
 };

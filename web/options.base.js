@@ -1,49 +1,3 @@
-if (process.env.LOGENTRIES_ENABLED === 'true') var LogEntries = require('le_node');
-var assert = require('assert');
-
-var log = function () {
-  // seneca custom log handlers
-
-  if (process.env.LOGENTRIES_ENABLED === 'true') {
-    assert.ok(process.env.LOGENTRIES_DEBUG_TOKEN, 'No LOGENTRIES_DEBUG_TOKEN set');
-    var led = new LogEntries({
-      token: process.env.LOGENTRIES_DEBUG_TOKEN,
-      flatten: true,
-      flattenArrays: true
-    });
-
-    assert.ok(process.env.LOGENTRIES_ERRORS_TOKEN, 'No LOGENTRIES_ERROR_TOKEN set');
-    var lee = new LogEntries({
-      token: process.env.LOGENTRIES_ERRORS_TOKEN,
-      flatten: true,
-      flattenArrays: true
-    });
-  }
-
-  function debugHandler() {
-    if (process.env.LOGENTRIES_ENABLED === 'true') {
-      assert.ok(process.env.LOGENTRIES_DEBUG_TOKEN, 'No LOGENTRIES_DEBUG_TOKEN set');
-      led.log('debug', arguments);
-    }
-  }
-
-  function errorHandler() {
-    console.error(JSON.stringify(arguments));
-
-    if (process.env.LOGENTRIES_ENABLED === 'true') {
-      assert.ok(process.env.LOGENTRIES_ERRORS_TOKEN, 'No LOGENTRIES_ERROR_TOKEN set');
-      lee.log('err', arguments);
-    }
-  }
-
-  return {
-    map:[{
-      level:'debug', handler: debugHandler
-    }, {
-      level:'error', handler: errorHandler
-    }]
-  };
-};
 
 function forumModerators() {
   var moderators = process.env.FORUM_MODS || '';
@@ -51,18 +5,13 @@ function forumModerators() {
 }
 
 module.exports = {
-  // purposely commented log: log(),
+
   actcache: {active:false},
   'main': {
     'timeout': 120000,
     strict: {add:false,  result:false}
   },
 
-  'bodyparser': {
-    'json': {
-      'limit': '10mb'
-    }
-  },
   'user-roles': {
     roles: {
       'basic-user': {
@@ -95,11 +44,6 @@ module.exports = {
       '/dashboard/stats',
       '/admin'
     ]
-  },
-
-  redis: {
-    "host": process.env.REDIS_HOST || process.env.DOCKER_HOST_IP || process.env.TARGETIP || '127.0.0.1',
-    "port": process.env.REDIS_PORT || 6379 // this is either configurable or in docker locally
   },
 
   webclient: {

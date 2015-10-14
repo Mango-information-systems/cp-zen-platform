@@ -157,10 +157,10 @@
         }, fail || topfail);
       },
       listPlaces: function(search, win, fail) {
-        cdApi.post('/countries/places', {search: search}, win, fail || topfail);
+        cdApi.post('countries/places', {search: search}, win, fail || topfail);
       },
       loadContinentsLatLongData: function(win, fail) {
-        cdApi.get('/countries/continents/lat-long', win, fail || topfail);
+        cdApi.get('countries/continents/lat-long', win, fail || topfail);
       },
       loadCountriesLatLongData: function(win, fail) {
         cdApi.get('countries/lat-long', win, fail || topfail);

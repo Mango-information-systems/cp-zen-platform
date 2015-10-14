@@ -98,15 +98,6 @@ module.exports = _.defaults({
     {type: 'web',  port: 10306, pin: 'role:cd-events,cmd:*'}
   ],
 
-  redis: {
-    "host": process.env.DOCKER_HOST_IP || process.env.TARGETIP || '127.0.0.1',
-    "port": 6379 // this isn't optioned
-  },
-
-  session: {
-    secret: 'seneca'
-  },
-
   timeout: 120000
 
 }, base);

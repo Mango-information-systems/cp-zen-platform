@@ -83,6 +83,7 @@ server.ext('onPreResponse', function (request, reply) {
   if (status !== 404 && status !== 401) {
     return reply.continue();
   }
+
   debug('onPreResponse', 'showing 404 errors page');
   return reply.view('errors/404', request.locals);
 });

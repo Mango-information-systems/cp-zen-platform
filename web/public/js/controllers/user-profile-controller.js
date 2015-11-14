@@ -53,7 +53,7 @@ function cdUserProfileCtrl($scope, $rootScope, $state, auth, cdUsersService, cdD
   $scope.upload = function (file) {
     if ($scope.profile.id && file) {
       Upload.upload({
-        url: '/api/1.0/profiles/change-avatar',
+        url: '/api/2.0/profiles/change-avatar',
         headers: {
           'Content-Type': 'multipart/form-data'
         },
@@ -178,7 +178,7 @@ function cdUserProfileCtrl($scope, $rootScope, $state, auth, cdUsersService, cdD
       alertService.showError($translate.instant('An error has occurred while sending invitation') );
     };
 
-    data.emailSubject = $translate.instant('Invitation to become a Parent/Guardian');
+    data.emailSubject = $translate.instant('You have been invited to register as a parent/guardian on Zen, the CoderDojo community platform.');
     cdUsersService.inviteParent(data, win, fail);
   };
 
@@ -511,7 +511,7 @@ function cdUserProfileCtrl($scope, $rootScope, $state, auth, cdUsersService, cdD
     usSpinnerService.spin('user-profile-spinner');
     var ninjaData = {
       ninjaEmail: ninjaEmail,
-      emailSubject: $translate.instant('Approve Parent Request')
+      emailSubject: $translate.instant('You have been invited to connect with a parent/guardian on Zen!')
     };
     cdUsersService.inviteNinja(ninjaData, function (response) {
       usSpinnerService.stop('user-profile-spinner');
@@ -531,6 +531,12 @@ function cdUserProfileCtrl($scope, $rootScope, $state, auth, cdUsersService, cdD
     $scope.inviteNinjaPopover.show = !$scope.inviteNinjaPopover.show;
   }
 
+  $scope.scrollToInvalid = function (form) {
+      if (form.$invalid) {
+          angular.element('form[name=' + form.$name + '] .ng-invalid')[0].scrollIntoView();
+      }
+  };
+
 }
 
 angular.module('cpZenPlatform')
@@ -538,4 +544,3 @@ angular.module('cpZenPlatform')
     '$translate', 'profile', 'utilsService', 'loggedInUser', 'usersDojos', '$stateParams',
     'hiddenFields', 'Upload', 'cdBadgesService', 'utilsService', 'initUserTypes', 'cdProgrammingLanguagesService',
     'agreement','championsForUser', 'parentsForUser', 'badgeCategories', 'dojoAdminsForUser', '$window', 'usSpinnerService', 'atomicNotifyService', '$timeout', cdUserProfileCtrl]);
-

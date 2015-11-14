@@ -1555,6 +1555,9 @@ msgstr "Intro"
 msgid "Badges Welcome Text"
 msgstr "Welcome to the CoderDojo Badges dashboard."
 
+msgid "Badges Award Notification"
+msgstr "If you'd like to award a badge, please visit the manage users section in"
+
 msgid "Short Description"
 msgstr "Short Description"
 

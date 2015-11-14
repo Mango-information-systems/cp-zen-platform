@@ -1,6 +1,7 @@
 <div class="cd-dashboard cd-color-1-underline cd-badges-dashboard">
   <div class="row">
     <h4>{@i18n key="Badges Welcome Text"/}</h4>
+    <p>{@i18n key="Badges Award Notification"/} <a ng-click="goTo('my-dojos')">{@i18n key="My Dojos"/}</a></p>
 
     <tabset justified="true">
       <tab ng-repeat="category in categories" class="badge-category-heading" heading="{{ prepareHeading(category) }}" ng-click="categorySelected()">
